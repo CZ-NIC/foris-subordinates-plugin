@@ -1,0 +1,27 @@
+{% extends 'config/base.html.j2' %}
+
+{% block config_base %}
+
+{% if is_xhr is not defined %}
+<div id="page-subordinates-netboot" class="config-page">
+{% endif %}
+    {% include '_messages.html.j2' %}
+    <p>{% trans %}Manage devices which can be booted from this device through network.{% endtrans %}</p>
+
+    </form>
+    <h3>{% trans %}Devices suitable for netboot{% endtrans %}</h3>
+    <div id="records-table">
+    {% trans %}Loading devices...{% endtrans %}
+    </div>
+    <br />
+    <div class="message info">
+    {%- trans setup_url=url("config_page", page_name="subordinates-setup") %}
+    Note that if everything goes well the accepted devices should <strong>eventually appear</strong> on <a href="{{ setup_url }}">Set up</a> page.
+    {% endtrans -%}
+    </div>
+
+{% if is_xhr is not defined %}
+</div>
+{% endif %}
+{% endblock %}
+

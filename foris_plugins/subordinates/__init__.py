@@ -33,12 +33,11 @@ from . import handlers
 
 
 class CommonPage(ConfigPageMixin):
-
     def _prepare_render_args(self, args):
-        args['PLUGIN_NAME'] = SubordinatesPlugin.PLUGIN_NAME
-        args['PLUGIN_STYLES'] = SubordinatesPlugin.PLUGIN_STYLES
-        args['PLUGIN_STATIC_SCRIPTS'] = SubordinatesPlugin.PLUGIN_STATIC_SCRIPTS
-        args['PLUGIN_DYNAMIC_SCRIPTS'] = SubordinatesPlugin.PLUGIN_DYNAMIC_SCRIPTS
+        args["PLUGIN_NAME"] = SubordinatesPlugin.PLUGIN_NAME
+        args["PLUGIN_STYLES"] = SubordinatesPlugin.PLUGIN_STYLES
+        args["PLUGIN_STATIC_SCRIPTS"] = SubordinatesPlugin.PLUGIN_STATIC_SCRIPTS
+        args["PLUGIN_DYNAMIC_SCRIPTS"] = SubordinatesPlugin.PLUGIN_DYNAMIC_SCRIPTS
 
     def render(self, **kwargs):
         self._prepare_render_args(kwargs)
@@ -63,17 +62,20 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
         super(SubordinatesSetupPage, self).save(no_messages=True, *args, **kwargs)
         data = self.form.callback_results
         if data["result"]:
-            messages.success(_(
-                "Token was successfully added and client '%(controller_id)s' "
-                "should be visible in a moment."
-            ) % dict(controller_id=data["controller_id"]))
+            messages.success(
+                _(
+                    "Token was successfully added and client '%(controller_id)s' "
+                    "should be visible in a moment."
+                )
+                % dict(controller_id=data["controller_id"])
+            )
         else:
             messages.error(_("Failed to add token."))
 
         return data["result"]
 
     def _check_and_get_controller_id(self):
-        if bottle.request.method != 'POST':
+        if bottle.request.method != "POST":
             messages.error(_("Wrong HTTP method."))
             bottle.redirect(reverse("config_page", page_name="remote"))
 
@@ -92,15 +94,14 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
 
     def _ajax_delete(self):
         controller_id = self._check_and_get_controller_id()
-        res = current_state.backend.perform(
-            "subordinates", "del", {"controller_id": controller_id})
+        res = current_state.backend.perform("subordinates", "del", {"controller_id": controller_id})
         if res["result"]:
             return bottle.template(
                 "subordinates/_subordinates_message.html.j2",
                 message={
-                    "classes": ['success'],
+                    "classes": ["success"],
                     "text": _("Subordinate '%(controller_id)s' was successfully deleted.")
-                    % dict(controller_id=controller_id)
+                    % dict(controller_id=controller_id),
                 },
                 template_adapter=bottle.Jinja2Template,
             )
@@ -108,44 +109,43 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
             return bottle.template(
                 "subordinates/_subordinates_message.html.j2",
                 message={
-                    "classes": ['error'],
+                    "classes": ["error"],
                     "text": _("Failed to delete subordinate '%(controller_id)s'.")
-                    % dict(controller_id=controller_id)
+                    % dict(controller_id=controller_id),
                 },
                 template_adapter=bottle.Jinja2Template,
             )
 
     def _ajax_set_enabled(self, enabled):
         controller_id = self._check_and_get_controller_id()
-        res = current_state.backend.perform("subordinates", "set_enabled", {
-            "controller_id": controller_id,
-            "enabled": enabled,
-        })
+        res = current_state.backend.perform(
+            "subordinates", "set_enabled", {"controller_id": controller_id, "enabled": enabled}
+        )
         if res["result"]:
             if enabled:
                 message = {
-                    "classes": ['success'],
+                    "classes": ["success"],
                     "text": _("Subordinate '%(controller_id)s' was sucessfuly enabled.")
-                    % dict(controller_id=controller_id)
+                    % dict(controller_id=controller_id),
                 }
             else:
                 message = {
-                    "classes": ['success'],
+                    "classes": ["success"],
                     "text": _("Subordinate '%(controller_id)s' was sucessfuly disabled.")
-                    % dict(controller_id=controller_id)
+                    % dict(controller_id=controller_id),
                 }
         else:
             if enabled:
                 message = {
-                    "classes": ['error'],
+                    "classes": ["error"],
                     "text": _("Failed to enable subordinate '%(controller_id)s'.")
-                    % dict(controller_id=controller_id)
+                    % dict(controller_id=controller_id),
                 }
             else:
                 message = {
-                    "classes": ['error'],
+                    "classes": ["error"],
                     "text": _("Failed to disable subordinate '%(controller_id)s'.")
-                    % dict(controller_id=controller_id)
+                    % dict(controller_id=controller_id),
                 }
 
         return bottle.template(
@@ -177,9 +177,9 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
             return False
         return ConfigPageMixin.is_enabled_static(cls)
 
-    def get_page_form(self, form_name: str, data: dict, controller_id: str) -> typing.Tuple[
-            fapi.ForisAjaxForm, typing.Callable[[dict], typing.Tuple['str', 'str']]
-    ]:
+    def get_page_form(
+        self, form_name: str, data: dict, controller_id: str
+    ) -> typing.Tuple[fapi.ForisAjaxForm, typing.Callable[[dict], typing.Tuple["str", "str"]]]:
         """Returns appropriate foris form and handler to generate response
         """
         form: fapi.ForisAjaxForm
@@ -189,16 +189,16 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
             def prepare_message(results: dict) -> dict:
                 if results["result"]:
                     message = {
-                        "classes": ['success'],
+                        "classes": ["success"],
                         "text": _("Device '%(controller_id)s' was sucessfully updated.")
-                        % dict(controller_id=data["controller_id"])
+                        % dict(controller_id=data["controller_id"]),
                     }
 
                 else:
                     message = {
-                        "classes": ['error'],
+                        "classes": ["error"],
                         "text": _("Failed to update subordinate '%(controller_id)s'.")
-                        % dict(controller_id=data["controller_id"])
+                        % dict(controller_id=data["controller_id"]),
                     }
                 return message
 
@@ -213,21 +213,22 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
             def prepare_message(results: dict) -> dict:
                 if results["result"]:
                     message = {
-                        "classes": ['success'],
+                        "classes": ["success"],
                         "text": _("Subsubordinate '%(controller_id)s' was sucessfully updated.")
-                        % dict(controller_id=data["controller_id"])
+                        % dict(controller_id=data["controller_id"]),
                     }
 
                 else:
                     message = {
-                        "classes": ['error'],
+                        "classes": ["error"],
                         "text": _("Failed to update subsubordinate '%(controller_id)s'.")
-                        % dict(controller_id=data["controller_id"])
+                        % dict(controller_id=data["controller_id"]),
                     }
                 return message
 
             form.url = reverse(
-                "config_ajax_form", page_name="subordinates-setup", form_name="subsub-form")
+                "config_ajax_form", page_name="subordinates-setup", form_name="subsub-form"
+            )
             return form, prepare_message
 
         raise bottle.HTTPError(404, "No form '%s' not found." % form_name)
@@ -272,9 +273,9 @@ class SubordinatesWifiPage(CommonPage):
             return self._ajax_list_subordinates()
         raise ValueError("Unknown AJAX action.")
 
-    def get_page_form(self, form_name: str, data: dict, controller_id: str) -> typing.Tuple[
-            fapi.ForisAjaxForm, typing.Callable[[dict], typing.Tuple['str', 'str']]
-    ]:
+    def get_page_form(
+        self, form_name: str, data: dict, controller_id: str
+    ) -> typing.Tuple[fapi.ForisAjaxForm, typing.Callable[[dict], typing.Tuple["str", "str"]]]:
         """Returns appropriate foris form and handler to generate response
         """
         if form_name == "wifi-form":
@@ -283,15 +284,12 @@ class SubordinatesWifiPage(CommonPage):
             def prepare_message(results: dict) -> dict:
                 if results["result"]:
                     message = {
-                        "classes": ['success'],
-                        "text": _("Wifi settings was sucessfully updated.")
+                        "classes": ["success"],
+                        "text": _("Wifi settings was sucessfully updated."),
                     }
 
                 else:
-                    message = {
-                        "classes": ['error'],
-                        "text": _("Failed to update Wifi settings.")
-                    }
+                    message = {"classes": ["error"], "text": _("Failed to update Wifi settings.")}
                 return message
 
             form.url = reverse(
@@ -302,14 +300,69 @@ class SubordinatesWifiPage(CommonPage):
         raise bottle.HTTPError(404, "No form '%s' not found." % form_name)
 
 
+# This represents a plugin page
+class SubordinatesNetbootPage(CommonPage, handlers.NetbootConfigHandler):
+    slug = "subordinates-netboot"
+    menu_order = 3
+    template = "subordinates/subordinates_netboot"
+    template_type = "jinja2"
+
+    def save(self, *args, **kwargs):
+        # Handle form result here
+        return super().save(*args, **kwargs)
+
+    def render(self, **kwargs):
+        self._prepare_render_args(kwargs)
+        return super().render(**kwargs)
+
+    def _action_list(self):
+        res = current_state.backend.perform("netboot", "list")
+
+        return bottle.template(
+            "subordinates/_subordinates_list_netboot.html.j2",
+            records=res["devices"],
+            template_adapter=bottle.Jinja2Template,
+        )
+
+    def _action_generic(self, action):
+        if bottle.request.method != "POST":
+            messages.error(_("Wrong HTTP method."))
+            bottle.redirect(reverse("config_page", page_name="remote"))
+        form = self.get_serial_form(bottle.request.POST.decode())
+        if not form.data["serial"]:
+            raise bottle.HTTPError(404, "serial not found")
+
+        res = current_state.backend.perform("netboot", action, {"serial": form.data["serial"]})
+
+        bottle.response.set_header("Content-Type", "application/json")
+        return res
+
+    def _action_revoke(self):
+        return self._action_generic("revoke")
+
+    def _action_accept(self):
+        return self._action_generic("accept")
+
+    def call_ajax_action(self, action):
+        if action == "list":
+            return self._action_list()
+        if action == "revoke":
+            return self._action_revoke()
+        if action == "accept":
+            return self._action_accept()
+
+        raise ValueError("Unknown AJAX action.")
+
+
 class SubordinatesJoinedPage(JoinedPages):
     userfriendly_title = gettext("Managed devices")
     slug = "subordinates"
     no_url = True
 
-    subpages: typing.Iterable[typing.Type['ConfigPageMixin']] = [
+    subpages: typing.Iterable[typing.Type["ConfigPageMixin"]] = [
         SubordinatesSetupPage,
         SubordinatesWifiPage,
+        SubordinatesNetbootPage,
     ]
 
     @classmethod
@@ -330,13 +383,12 @@ class SubordinatesPlugin(ForisPlugin):
     PLUGIN_NAME = "subordinates"
     DIRNAME = os.path.dirname(os.path.abspath(__file__))
 
-    PLUGIN_STYLES = [
-    ]
-    PLUGIN_STATIC_SCRIPTS = [
-        "js/subordinates.js",  # static js file
-    ]
-    PLUGIN_DYNAMIC_SCRIPTS = [
-        "subordinates.js",  # dynamic js file (a template which will be rendered to javascript)
+    PLUGIN_STYLES: typing.List[str] = []
+
+    PLUGIN_STATIC_SCRIPTS: typing.List[str] = ["js/subordinates.js"]  # static js file
+
+    PLUGIN_DYNAMIC_SCRIPTS: typing.List[str] = [
+        "subordinates.js"  # dynamic js file (a template which will be rendered to javascript)
     ]
 
     def __init__(self, app):

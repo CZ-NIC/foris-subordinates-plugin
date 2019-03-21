@@ -1,5 +1,5 @@
 {% macro sub_buttons(controller_id, enabled, form_class) -%}
-    <form action="{{ url("config_ajax", page_name="subordinates") }}" method="post" class="subordinate-buttons {{ form_class }}">
+    <form action="{{ url("config_ajax", page_name="subordinates-setup") }}" method="post" class="subordinate-buttons {{ form_class }}">
         <input type="hidden" name="controller_id" value="{{ controller_id }}">
         <input type="hidden" name="csrf_token" value="{{ get_csrf_token() }}">
         {% if enabled %}

@@ -1,3 +1,14 @@
 Foris.messages.subordinatesSubordinatesFailed = (controller_id) => {
   return `{% trans controller_id="${controller_id}" %}Connection to '{{ controller_id }}' was interrupted.{% endtrans %}`;
 };
+
+Foris.netbootMessages = {
+}
+
+Foris.loadNetbootList = () => {
+    $.get('{{ url("config_ajax", page_name="subordinates-netboot") }}', {action: "list"})
+        .done((response) => {
+            $("#records-table").replaceWith(response);
+            Foris.initNetbootRecordsForms();
+        })
+}

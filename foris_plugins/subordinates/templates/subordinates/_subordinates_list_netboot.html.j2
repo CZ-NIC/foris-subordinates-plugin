@@ -1,0 +1,34 @@
+{% if records %}
+<table id="records-table">
+    <thead><th>{% trans %}Serial{% endtrans %}</th><th>{% trans %}Paired{% endtrans %}</th><th></th></thead>
+    <tbody>
+  {% for record in records %}
+        <tr>
+            <td>{{ record.serial }}</td>
+            {% if record.state == "accepted" %}
+            <td title="{% trans %}Paired{% endtrans %}">
+                <i class="fas fa-check"></i>
+            </td>
+            {% else %}
+            <td title="{% trans %}Unpaired{% endtrans %}">
+                <i class="fas fa-times"></i>
+            </td>
+            {% endif %}
+            <td>
+                <form action="{{ url("config_ajax", page_name="subordinates-netboot") }}" method="post" class="record-form">
+                    <input type="hidden" name="serial" value="{{ record.serial }}">
+                    <input type="hidden" name="csrf_token" value="{{ get_csrf_token() }}">
+                {% if record.state == "accepted" %}
+                    <button name="action" value="revoke" type="submit">{% trans %}Revoke{% endtrans %}</button>
+                {% else %}
+                    <button name="action" value="accept" type="submit">{% trans %}Accept{% endtrans %}</button>
+                {% endif %}
+                </form>
+            </td>
+        </tr>
+  {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p id="records-table">{% trans %}No suitable devices found.{% endtrans %}</p>
+{% endif %}

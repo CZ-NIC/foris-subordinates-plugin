@@ -18,10 +18,10 @@ import base64
 import bottle
 import typing
 
-from foris import fapi
+from foris import fapi, validators
 from foris.form import File, Hidden, Textbox
 from foris.state import current_state
-from foris.utils.translators import gettext as _
+from foris.utils.translators import gettext as _, gettext_dummy as gettext
 
 from foris.config_handlers.base import BaseConfigHandler
 from foris.config_handlers.wifi import WifiEditForm
@@ -195,3 +195,33 @@ class SubordinatesWifiHandler(BaseConfigHandler):
     def get_form(self):
         ajax_form = WifiEditForm(self.data)
         return ajax_form.foris_form
+
+
+class NetbootConfigHandler(BaseConfigHandler):
+    STATE_ACCEPTED = gettext("accepted")
+    STATE_INCOMMING = gettext("incomming")
+
+    userfriendly_title = gettext("Netboot")
+
+    def get_form(self):
+
+        form = fapi.ForisForm("netboot", {})
+        form.add_section(
+            name="main_section",
+            title=self.userfriendly_title,
+        )
+
+        def form_cb(data):
+            return "save_result", {}
+
+        form.add_callback(form_cb)
+        return form
+
+    def get_serial_form(self, data=None):
+        generate_serial_form = fapi.ForisForm("serial_form", data)
+        serial_section = generate_serial_form.add_section("serial_section", title=None)
+        serial_section.add_field(
+            Textbox, name="serial", label=" ", required=True,
+            validators=[validators.MacAddress()],
+        )
+        return generate_serial_form
