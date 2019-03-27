@@ -279,7 +279,7 @@ class SubordinatesWifiPage(CommonPage):
         """Returns appropriate foris form and handler to generate response
         """
         if form_name == "wifi-form":
-            form = handlers.WifiEditForm(data, controller_id=controller_id)
+            form = handlers.WifiEditForm(data, controller_id=controller_id, enable_guest=False)
 
             def prepare_message(results: dict) -> dict:
                 if results["result"]:
