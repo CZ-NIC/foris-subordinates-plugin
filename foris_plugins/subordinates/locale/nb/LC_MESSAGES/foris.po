@@ -1,0 +1,259 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Foris package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  Foris\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-01 11:20+0200\n"
+"PO-Revision-Date: 2019-03-14 07:04+0000\n"
+"Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language: nb\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/turris/foris/nb_NO/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Set up"
+msgstr ""
+
+msgid "Managed devices: Set up"
+msgstr ""
+
+#, python-format
+msgid ""
+"Token was successfully added and client '%(controller_id)s' should be "
+"visible in a moment."
+msgstr ""
+"Symbol lagt til, og klienten \"%(controller_id)s\" bør være synlig om en "
+"stund."
+
+msgid "Failed to add token."
+msgstr "Klarte ikke å legge til symbol."
+
+msgid "Wrong HTTP method."
+msgstr "Gal HTTP-metode."
+
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was successfully deleted."
+msgstr "Passord lagret."
+
+#, python-format
+msgid "Failed to delete subordinate '%(controller_id)s'."
+msgstr "Klarte ikke å slette underlegenhet \"%(controller_id)s\"."
+
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+msgstr "Passord lagret."
+
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+msgstr "Passord lagret."
+
+#, python-format
+msgid "Failed to enable subordinate '%(controller_id)s'."
+msgstr "Klarte ikke å skru på underlegenhet \"%(controller_id)s\"."
+
+#, fuzzy, python-format
+msgid "Failed to disable subordinate '%(controller_id)s'."
+msgstr "Klarte ikke å lagre systempassord"
+
+#, fuzzy, python-format
+msgid "Device '%(controller_id)s' was sucessfully updated."
+msgstr "Oppsettet ble lagret."
+
+#, python-format
+msgid "Failed to update subordinate '%(controller_id)s'."
+msgstr "Klarte ikke å oppdatere underlegenhet \"%(controller_id)s\"."
+
+#, fuzzy, python-format
+msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+msgstr "Oppsettet ble lagret."
+
+#, python-format
+msgid "Failed to update subsubordinate '%(controller_id)s'."
+msgstr "Klarte ikke å oppdatere underunderlegenhet \"%(controller_id)s\"."
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Managed devices: Wi-Fi"
+msgstr ""
+
+#, fuzzy
+msgid "Wifi settings was sucessfully updated."
+msgstr "Oppsettet ble lagret."
+
+msgid "Failed to update Wifi settings."
+msgstr "Klarte ikke å oppdetere Wi-Fi-innstillinger."
+
+#, fuzzy
+msgid "Managed devices"
+msgstr "Underlegne enheter"
+
+#, fuzzy
+msgid "Token file"
+msgstr "Avsendernavn"
+
+#, fuzzy, python-format
+msgid "Edit device '%(controller_id)s'"
+msgstr "Rediger underlegenhet \"%(controller_id)s\"."
+
+#, fuzzy
+msgid ""
+"You can edit managed devices here. These managed devices are directly "
+"connected to this device."
+msgstr ""
+"Du kan redigere din underlegenhet her. Underlegenheter er direkte "
+"tilkoblet denne enheten."
+
+#, fuzzy
+msgid "Custom Name"
+msgstr "Brukernavn"
+
+#, fuzzy, python-format
+msgid "Nicer name for your device '%(controller_id)s'."
+msgstr "Finere navn for din enhet \"%(controller_id)s\"."
+
+#, fuzzy, python-format
+msgid "Edit managed device '%(controller_id)s'"
+msgstr "Finere navn for din enhet \"%(controller_id)s\"."
+
+#, fuzzy
+msgid ""
+"You can edit managed devices here. These devices are not not directly "
+"connected to this device but they are connected through another managed "
+"device."
+msgstr ""
+"Du kan redigere din underunderlegenhet her. Underunderlegenheter er "
+"enheter som ikke er direkte tilkoblet denne enheten, men de er tilkoblet "
+"med en underlegenhet."
+
+#, python-format
+msgid "Nicer name for your device with serial '%(controller_id)s'."
+msgstr "Finere navn for din enhet med serienummer \"%(controller_id)s\"."
+
+msgid "accepted"
+msgstr ""
+
+msgid "incomming"
+msgstr ""
+
+#, fuzzy
+msgid "Netboot"
+msgstr "Omstart"
+
+#, fuzzy, python-format
+msgid "Connection to '%(controller_id)s' was interrupted."
+msgstr "Oppsettet ble lagret."
+
+#, fuzzy
+msgid "Close"
+msgstr "tapt"
+
+msgid "Apply"
+msgstr "Bruk"
+
+msgid "Serial"
+msgstr ""
+
+#, fuzzy
+msgid "Paired"
+msgstr "Utløper"
+
+#, fuzzy
+msgid "Unpaired"
+msgstr "Utløper"
+
+msgid "Revoke"
+msgstr "Tilbakekall"
+
+msgid "Accept"
+msgstr ""
+
+msgid "No suitable devices found."
+msgstr ""
+
+msgid "ID"
+msgstr "ID"
+
+#, fuzzy
+msgid "State"
+msgstr "Brukernavn"
+
+#, fuzzy
+msgid "Currently there are no managed devices."
+msgstr "Det er for øyeblikket ingen underlegenheter."
+
+#, fuzzy
+msgid "Devices"
+msgstr "Enhet"
+
+#, fuzzy
+msgid "Channels"
+msgstr "Nettverkskanal"
+
+msgid "Currently there are no subordinates."
+msgstr "Det er for øyeblikket ingen underlegenheter."
+
+msgid "Manage devices which can be booted from this device through network."
+msgstr ""
+
+msgid "Devices suitable for netboot"
+msgstr ""
+
+#, fuzzy
+msgid "Loading devices..."
+msgstr "Laster inn underlegenheter…"
+
+#, python-format
+msgid ""
+"\n"
+"    Note that if everything goes well the accepted devices should "
+"<strong>eventually appear</strong> on <a href=\"%(setup_url)s\">Set "
+"up</a> page.\n"
+"    "
+msgstr ""
+
+#, fuzzy
+msgid ""
+"\n"
+"        On this tab you can set up other turris devices which can be "
+"controlled\n"
+"        by this device. You need to generate token on the remote tab on "
+"the device\n"
+"        you wan't to control. And insert the token here.\n"
+"    "
+msgstr ""
+"\n"
+"        I denne fanen kan du sette opp andre Turris-enheter, som kan "
+"kontrolleres\n"
+"        av denne enheten. Du kan generere et symbol i fanen annensteds "
+"hen, på enheten\n"
+"        du ønsker å kontrollere og lime inn symbolet her."
+
+#, fuzzy
+msgid "Add device"
+msgstr "Enhet"
+
+msgid "Upload token"
+msgstr "Last opp symbol"
+
+#, fuzzy
+msgid "Device list"
+msgstr "Enhet"
+
+#, fuzzy
+msgid "Loading manged devices..."
+msgstr "Underlegne enheter"
+
+msgid ""
+"\n"
+"        On this tab you can set up Wi-Fi of other devices controlled by "
+"this device."
+msgstr ""

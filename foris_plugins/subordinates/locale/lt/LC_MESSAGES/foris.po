@@ -1,0 +1,240 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2017 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Foris package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  Foris\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-01 11:20+0200\n"
+"PO-Revision-Date: 2019-01-22 08:21+0000\n"
+"Last-Translator: Fln <weblate.org@fln.lt>\n"
+"Language: lt\n"
+"Language-Team: Lithuanian "
+"<https://hosted.weblate.org/projects/turris/foris/lt/>\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Set up"
+msgstr ""
+
+msgid "Managed devices: Set up"
+msgstr ""
+
+#, python-format
+msgid ""
+"Token was successfully added and client '%(controller_id)s' should be "
+"visible in a moment."
+msgstr ""
+
+msgid "Failed to add token."
+msgstr ""
+
+msgid "Wrong HTTP method."
+msgstr "Klaidingas HTTP metodas."
+
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was successfully deleted."
+msgstr "Foris slaptažodis išsaugotas sėkmingai."
+
+#, python-format
+msgid "Failed to delete subordinate '%(controller_id)s'."
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+msgstr "Sistemos slaptažodis išsaugotas sėkmingai."
+
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+msgstr "Sistemos slaptažodis išsaugotas sėkmingai."
+
+#, python-format
+msgid "Failed to enable subordinate '%(controller_id)s'."
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Failed to disable subordinate '%(controller_id)s'."
+msgstr "Nepavyko išsaugoti sistemos slaptažodžio"
+
+#, fuzzy, python-format
+msgid "Device '%(controller_id)s' was sucessfully updated."
+msgstr "Konfigūracija sėkmingai atnaujinta."
+
+#, python-format
+msgid "Failed to update subordinate '%(controller_id)s'."
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+msgstr "Konfigūracija sėkmingai atnaujinta."
+
+#, python-format
+msgid "Failed to update subsubordinate '%(controller_id)s'."
+msgstr ""
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Managed devices: Wi-Fi"
+msgstr ""
+
+#, fuzzy
+msgid "Wifi settings was sucessfully updated."
+msgstr "Konfigūracija sėkmingai atnaujinta."
+
+msgid "Failed to update Wifi settings."
+msgstr ""
+
+msgid "Managed devices"
+msgstr ""
+
+#, fuzzy
+msgid "Token file"
+msgstr "Siuntėjo vardas"
+
+#, fuzzy, python-format
+msgid "Edit device '%(controller_id)s'"
+msgstr "Nepavyko išsaugoti sistemos slaptažodžio"
+
+msgid ""
+"You can edit managed devices here. These managed devices are directly "
+"connected to this device."
+msgstr ""
+
+#, fuzzy
+msgid "Custom Name"
+msgstr "Įrenginio Vardas"
+
+#, python-format
+msgid "Nicer name for your device '%(controller_id)s'."
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Edit managed device '%(controller_id)s'"
+msgstr "Nepavyko išsaugoti sistemos slaptažodžio"
+
+msgid ""
+"You can edit managed devices here. These devices are not not directly "
+"connected to this device but they are connected through another managed "
+"device."
+msgstr ""
+
+#, python-format
+msgid "Nicer name for your device with serial '%(controller_id)s'."
+msgstr ""
+
+msgid "accepted"
+msgstr ""
+
+msgid "incomming"
+msgstr ""
+
+#, fuzzy
+msgid "Netboot"
+msgstr "Perkrauti"
+
+#, fuzzy, python-format
+msgid "Connection to '%(controller_id)s' was interrupted."
+msgstr "Konfigūracija sėkmingai atnaujinta."
+
+msgid "Close"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Serial"
+msgstr ""
+
+#, fuzzy
+msgid "Paired"
+msgstr "Pasibaigia"
+
+#, fuzzy
+msgid "Unpaired"
+msgstr "Pasibaigia"
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "No suitable devices found."
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+#, fuzzy
+msgid "State"
+msgstr "būsena"
+
+msgid "Currently there are no managed devices."
+msgstr ""
+
+#, fuzzy
+msgid "Devices"
+msgstr "Įrenginys"
+
+#, fuzzy
+msgid "Channels"
+msgstr "Tinklo kanalas"
+
+msgid "Currently there are no subordinates."
+msgstr ""
+
+msgid "Manage devices which can be booted from this device through network."
+msgstr ""
+
+msgid "Devices suitable for netboot"
+msgstr ""
+
+#, fuzzy
+msgid "Loading devices..."
+msgstr "Kraunama..."
+
+#, python-format
+msgid ""
+"\n"
+"    Note that if everything goes well the accepted devices should "
+"<strong>eventually appear</strong> on <a href=\"%(setup_url)s\">Set "
+"up</a> page.\n"
+"    "
+msgstr ""
+
+msgid ""
+"\n"
+"        On this tab you can set up other turris devices which can be "
+"controlled\n"
+"        by this device. You need to generate token on the remote tab on "
+"the device\n"
+"        you wan't to control. And insert the token here.\n"
+"    "
+msgstr ""
+
+#, fuzzy
+msgid "Add device"
+msgstr "Įrenginys"
+
+msgid "Upload token"
+msgstr ""
+
+#, fuzzy
+msgid "Device list"
+msgstr "Įrenginys"
+
+msgid "Loading manged devices..."
+msgstr ""
+
+msgid ""
+"\n"
+"        On this tab you can set up Wi-Fi of other devices controlled by "
+"this device."
+msgstr ""

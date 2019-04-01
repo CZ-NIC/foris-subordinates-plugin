@@ -1,0 +1,252 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Foris package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  Foris\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-01 11:20+0200\n"
+"PO-Revision-Date: 2019-03-18 11:42+0000\n"
+"Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
+"Language: ru\n"
+"Language-Team: Russian "
+"<https://hosted.weblate.org/projects/turris/foris/ru/>\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Set up"
+msgstr ""
+
+msgid "Managed devices: Set up"
+msgstr ""
+
+#, python-format
+msgid ""
+"Token was successfully added and client '%(controller_id)s' should be "
+"visible in a moment."
+msgstr ""
+"Токен был успешно добавлен и клиент '%(controller_id)s' сейчас будет "
+"виден."
+
+msgid "Failed to add token."
+msgstr "Не удалось добавить токен."
+
+msgid "Wrong HTTP method."
+msgstr "Неверный метод HTTP."
+
+#, python-format
+msgid "Subordinate '%(controller_id)s' was successfully deleted."
+msgstr "Нижестоящий '%(controller_id)s' был успешно удален."
+
+#, python-format
+msgid "Failed to delete subordinate '%(controller_id)s'."
+msgstr "Не удалось удалить нижестоящий '%(controller_id)s'."
+
+#, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+msgstr "Нижестоящий '%(controller_id)s' успешно включен."
+
+#, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+msgstr "Нижестоящий '%(controller_id)s' успешно отключен."
+
+#, python-format
+msgid "Failed to enable subordinate '%(controller_id)s'."
+msgstr "Не удалось включить нижестоящий '%(controller_id)s'."
+
+#, python-format
+msgid "Failed to disable subordinate '%(controller_id)s'."
+msgstr "Не удалось отключить нижестоящий '%(controller_id)s'."
+
+#, fuzzy, python-format
+msgid "Device '%(controller_id)s' was sucessfully updated."
+msgstr "Нижестоящий '%(controller_id)s' был успешно обновлён."
+
+#, python-format
+msgid "Failed to update subordinate '%(controller_id)s'."
+msgstr "Не удалось обновить нижестоящий '%(controller_id)s'."
+
+#, python-format
+msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+msgstr "Нижестоящий нижестоящего '%(controller_id)s' был успешно обновлён."
+
+#, python-format
+msgid "Failed to update subsubordinate '%(controller_id)s'."
+msgstr "Не удалось обновить нижестоящий нижестоящего '%(controller_id)s'."
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Managed devices: Wi-Fi"
+msgstr ""
+
+msgid "Wifi settings was sucessfully updated."
+msgstr "Настройки WiFi были успешно обновлены."
+
+msgid "Failed to update Wifi settings."
+msgstr "Не удалось обновить настройки WiFi."
+
+#, fuzzy
+msgid "Managed devices"
+msgstr "Нижестоящие устройства"
+
+msgid "Token file"
+msgstr "Файл токена"
+
+#, fuzzy, python-format
+msgid "Edit device '%(controller_id)s'"
+msgstr "Редактировать нижестоящий '%(controller_id)s'"
+
+#, fuzzy
+msgid ""
+"You can edit managed devices here. These managed devices are directly "
+"connected to this device."
+msgstr ""
+"Вы можете редактировать нижестоящие здесь. Нижестоящие напрямую связаны с"
+" этим устройством."
+
+msgid "Custom Name"
+msgstr "Пользовательское имя"
+
+#, python-format
+msgid "Nicer name for your device '%(controller_id)s'."
+msgstr "Хорошее имя для вашего устройства '%(controller_id)s'."
+
+#, fuzzy, python-format
+msgid "Edit managed device '%(controller_id)s'"
+msgstr "Хорошее имя для вашего устройства '%(controller_id)s'."
+
+#, fuzzy
+msgid ""
+"You can edit managed devices here. These devices are not not directly "
+"connected to this device but they are connected through another managed "
+"device."
+msgstr ""
+"Вы можете редактировать свое нижестоящих здесь. Нижестоящие нижестоящих -"
+" устройства, которые не связаны напрямую с этим устройством, но связаны с"
+" нижестоящим."
+
+#, python-format
+msgid "Nicer name for your device with serial '%(controller_id)s'."
+msgstr "Хорошее имя для вашего устройства с серийным номером '%(controller_id)s'."
+
+msgid "accepted"
+msgstr ""
+
+msgid "incomming"
+msgstr ""
+
+#, fuzzy
+msgid "Netboot"
+msgstr "Перезагрузить"
+
+#, fuzzy, python-format
+msgid "Connection to '%(controller_id)s' was interrupted."
+msgstr "Нижестоящий '%(controller_id)s' был успешно обновлён."
+
+msgid "Close"
+msgstr "Закрыть"
+
+msgid "Apply"
+msgstr "Применить"
+
+msgid "Serial"
+msgstr ""
+
+#, fuzzy
+msgid "Paired"
+msgstr "истёк"
+
+#, fuzzy
+msgid "Unpaired"
+msgstr "истёк"
+
+msgid "Revoke"
+msgstr "Отменить"
+
+msgid "Accept"
+msgstr ""
+
+msgid "No suitable devices found."
+msgstr ""
+
+msgid "ID"
+msgstr "Идентификатор"
+
+msgid "State"
+msgstr "Состояние"
+
+#, fuzzy
+msgid "Currently there are no managed devices."
+msgstr "В настоящее время нет нижестоящих."
+
+msgid "Devices"
+msgstr "Устройства"
+
+msgid "Channels"
+msgstr "Каналы"
+
+msgid "Currently there are no subordinates."
+msgstr "В настоящее время нет нижестоящих."
+
+msgid "Manage devices which can be booted from this device through network."
+msgstr ""
+
+msgid "Devices suitable for netboot"
+msgstr ""
+
+#, fuzzy
+msgid "Loading devices..."
+msgstr "Загрузка нижестоящих..."
+
+#, python-format
+msgid ""
+"\n"
+"    Note that if everything goes well the accepted devices should "
+"<strong>eventually appear</strong> on <a href=\"%(setup_url)s\">Set "
+"up</a> page.\n"
+"    "
+msgstr ""
+
+#, fuzzy
+msgid ""
+"\n"
+"        On this tab you can set up other turris devices which can be "
+"controlled\n"
+"        by this device. You need to generate token on the remote tab on "
+"the device\n"
+"        you wan't to control. And insert the token here.\n"
+"    "
+msgstr ""
+"\n"
+"        На этой вкладке можно настроить другие устройства Turris, "
+"которыми можно управлять с этого устройства. Вам нужно сгенерировать "
+"токен на удаленной вкладке на устройстве, которое надо контролировать. "
+"Затем вставьте токен здесь."
+
+#, fuzzy
+msgid "Add device"
+msgstr "Устройство"
+
+msgid "Upload token"
+msgstr "Загрузить токен"
+
+#, fuzzy
+msgid "Device list"
+msgstr "Устройства"
+
+#, fuzzy
+msgid "Loading manged devices..."
+msgstr "Нижестоящие устройства"
+
+msgid ""
+"\n"
+"        On this tab you can set up Wi-Fi of other devices controlled by "
+"this device."
+msgstr ""

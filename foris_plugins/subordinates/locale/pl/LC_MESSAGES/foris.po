@@ -1,0 +1,247 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the Foris package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version:  Foris\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-01 11:20+0200\n"
+"PO-Revision-Date: 2019-03-16 22:04+0000\n"
+"Last-Translator: Krzysztof Kulesza <github@cmza.pl>\n"
+"Language: pl\n"
+"Language-Team: Polish "
+"<https://hosted.weblate.org/projects/turris/foris/pl/>\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Set up"
+msgstr ""
+
+msgid "Managed devices: Set up"
+msgstr ""
+
+#, python-format
+msgid ""
+"Token was successfully added and client '%(controller_id)s' should be "
+"visible in a moment."
+msgstr ""
+"Token został pomyślnie dodany, a klient '%(controller_id)s' powinien być "
+"widoczny za chwilę."
+
+msgid "Failed to add token."
+msgstr "Nie udało się dodać tokena."
+
+msgid "Wrong HTTP method."
+msgstr "Niewłaściwa metoda HTTP."
+
+#, python-format
+msgid "Subordinate '%(controller_id)s' was successfully deleted."
+msgstr "Urządzenie podrzędne '%(controller_id)s' zostało pomyślnie usunięte."
+
+#, python-format
+msgid "Failed to delete subordinate '%(controller_id)s'."
+msgstr "Nie można usunąć urządzenia podrzędnego '%(controller_id)s'."
+
+#, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+msgstr "Urządzenie podrzędne '%(controller_id)s' zostało pomyślnie włączone."
+
+#, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+msgstr "Urządzenie podrzędne '%(controller_id)s' zostało pomyślnie wyłączone."
+
+#, python-format
+msgid "Failed to enable subordinate '%(controller_id)s'."
+msgstr "Nie można włączyć urządzenia podrzędnego '%(controller_id)s'."
+
+#, python-format
+msgid "Failed to disable subordinate '%(controller_id)s'."
+msgstr "Nie można wyłączyć urządzenia podrzędnego '%(controller_id)s'."
+
+#, fuzzy, python-format
+msgid "Device '%(controller_id)s' was sucessfully updated."
+msgstr "Urządzenie podrzędne '%(controller_id)s' zostało pomyślnie zaktualizowane."
+
+#, python-format
+msgid "Failed to update subordinate '%(controller_id)s'."
+msgstr "Nie można zaktualizować urządzenia podrzędnego '%(controller_id)s'."
+
+#, python-format
+msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+msgstr ""
+
+#, python-format
+msgid "Failed to update subsubordinate '%(controller_id)s'."
+msgstr ""
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Managed devices: Wi-Fi"
+msgstr ""
+
+msgid "Wifi settings was sucessfully updated."
+msgstr "Konfiguracja sieci Wifi została zaktualizowana."
+
+msgid "Failed to update Wifi settings."
+msgstr "Nie udało się zaktualizować ustawień Wifi."
+
+#, fuzzy
+msgid "Managed devices"
+msgstr "Urządzenia podrzędne"
+
+msgid "Token file"
+msgstr "Plik tokenu"
+
+#, fuzzy, python-format
+msgid "Edit device '%(controller_id)s'"
+msgstr "Ładniejsza nazwa dla twojego urządzenia '%(controller_id)s'."
+
+msgid ""
+"You can edit managed devices here. These managed devices are directly "
+"connected to this device."
+msgstr ""
+
+msgid "Custom Name"
+msgstr "Nazwa niestandardowa"
+
+#, fuzzy, python-format
+msgid "Nicer name for your device '%(controller_id)s'."
+msgstr "Ładniejsza nazwa dla twojego urządzenia '%(controller_id)s'."
+
+#, fuzzy, python-format
+msgid "Edit managed device '%(controller_id)s'"
+msgstr "Ładniejsza nazwa dla twojego urządzenia '%(controller_id)s'."
+
+msgid ""
+"You can edit managed devices here. These devices are not not directly "
+"connected to this device but they are connected through another managed "
+"device."
+msgstr ""
+
+#, python-format
+msgid "Nicer name for your device with serial '%(controller_id)s'."
+msgstr ""
+"Ładniejsza nazwa dla twojego urządzenia z numerem seryjnym "
+"'%(controller_id)s'."
+
+msgid "accepted"
+msgstr ""
+
+msgid "incomming"
+msgstr ""
+
+#, fuzzy
+msgid "Netboot"
+msgstr "Restart"
+
+#, fuzzy, python-format
+msgid "Connection to '%(controller_id)s' was interrupted."
+msgstr "Urządzenie podrzędne '%(controller_id)s' zostało pomyślnie zaktualizowane."
+
+msgid "Close"
+msgstr "Zamknij"
+
+msgid "Apply"
+msgstr "Zastosuj"
+
+msgid "Serial"
+msgstr ""
+
+#, fuzzy
+msgid "Paired"
+msgstr "przedawniony"
+
+#, fuzzy
+msgid "Unpaired"
+msgstr "przedawniony"
+
+msgid "Revoke"
+msgstr "Unieważnij"
+
+msgid "Accept"
+msgstr ""
+
+msgid "No suitable devices found."
+msgstr ""
+
+msgid "ID"
+msgstr "ID"
+
+msgid "State"
+msgstr "Stan"
+
+msgid "Currently there are no managed devices."
+msgstr ""
+
+msgid "Devices"
+msgstr "Urządzenia"
+
+msgid "Channels"
+msgstr "Kanały"
+
+msgid "Currently there are no subordinates."
+msgstr ""
+
+msgid "Manage devices which can be booted from this device through network."
+msgstr ""
+
+msgid "Devices suitable for netboot"
+msgstr ""
+
+#, fuzzy
+msgid "Loading devices..."
+msgstr "Ładowanie urządzeń podrzędnych..."
+
+#, python-format
+msgid ""
+"\n"
+"    Note that if everything goes well the accepted devices should "
+"<strong>eventually appear</strong> on <a href=\"%(setup_url)s\">Set "
+"up</a> page.\n"
+"    "
+msgstr ""
+
+#, fuzzy
+msgid ""
+"\n"
+"        On this tab you can set up other turris devices which can be "
+"controlled\n"
+"        by this device. You need to generate token on the remote tab on "
+"the device\n"
+"        you wan't to control. And insert the token here.\n"
+"    "
+msgstr ""
+"\n"
+"        Na tej karcie możesz skonfigurować inne urządzenia turris, które "
+"można kontrolować\n"
+"przez to urządzenie. Musisz wygenerować token na karcie zdalnej "
+"urządzenia\n"
+"które chcesz kontrolować. Potem wstawić tutaj token."
+
+#, fuzzy
+msgid "Add device"
+msgstr "Urządzenie"
+
+msgid "Upload token"
+msgstr "Prześlij token"
+
+#, fuzzy
+msgid "Device list"
+msgstr "Urządzenia"
+
+#, fuzzy
+msgid "Loading manged devices..."
+msgstr "Urządzenia podrzędne"
+
+msgid ""
+"\n"
+"        On this tab you can set up Wi-Fi of other devices controlled by "
+"this device."
+msgstr ""

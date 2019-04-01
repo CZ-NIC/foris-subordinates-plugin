@@ -1,0 +1,248 @@
+# Foris - web administration interface for OpenWrt based on NETCONF
+# Copyright (C) 2013 CZ.NIC, z.s.p.o. <http://www.nic.cz>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+# Vladimír Záhradník <vladimir.zahradnik@gmail.com>, 2016.
+msgid ""
+msgstr ""
+"Project-Id-Version: Foris 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-04-01 11:20+0200\n"
+"PO-Revision-Date: 2019-01-22 08:22+0000\n"
+"Last-Translator: Vladimír Záhradník <vladimir.zahradnik@gmail.com>\n"
+"Language: sk\n"
+"Language-Team: Slovak "
+"<https://hosted.weblate.org/projects/turris/foris/sk/>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+msgid "Set up"
+msgstr ""
+
+msgid "Managed devices: Set up"
+msgstr ""
+
+#, python-format
+msgid ""
+"Token was successfully added and client '%(controller_id)s' should be "
+"visible in a moment."
+msgstr ""
+
+msgid "Failed to add token."
+msgstr ""
+
+msgid "Wrong HTTP method."
+msgstr "Neplatná HTTP metóda."
+
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was successfully deleted."
+msgstr "Heslo do Forisa bolo úspešne uložené."
+
+#, python-format
+msgid "Failed to delete subordinate '%(controller_id)s'."
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+msgstr "Heslo bolo úspešne uložené."
+
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+msgstr "Heslo bolo úspešne uložené."
+
+#, python-format
+msgid "Failed to enable subordinate '%(controller_id)s'."
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Failed to disable subordinate '%(controller_id)s'."
+msgstr "Systémové heslo sa nepodarilo uložiť"
+
+#, fuzzy, python-format
+msgid "Device '%(controller_id)s' was sucessfully updated."
+msgstr "Nastavenie siete bolo úspešne aktualizované."
+
+#, python-format
+msgid "Failed to update subordinate '%(controller_id)s'."
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+msgstr "Nastavenie siete bolo úspešne aktualizované."
+
+#, python-format
+msgid "Failed to update subsubordinate '%(controller_id)s'."
+msgstr ""
+
+msgid "Wi-Fi"
+msgstr "Wi-Fi"
+
+msgid "Managed devices: Wi-Fi"
+msgstr ""
+
+#, fuzzy
+msgid "Wifi settings was sucessfully updated."
+msgstr "Nastavenie siete bolo úspešne aktualizované."
+
+msgid "Failed to update Wifi settings."
+msgstr ""
+
+msgid "Managed devices"
+msgstr ""
+
+#, fuzzy
+msgid "Token file"
+msgstr "Meno odosielateľa"
+
+#, fuzzy, python-format
+msgid "Edit device '%(controller_id)s'"
+msgstr "Systémové heslo sa nepodarilo uložiť"
+
+msgid ""
+"You can edit managed devices here. These managed devices are directly "
+"connected to this device."
+msgstr ""
+
+#, fuzzy
+msgid "Custom Name"
+msgstr "Názov stroja"
+
+#, python-format
+msgid "Nicer name for your device '%(controller_id)s'."
+msgstr ""
+
+#, fuzzy, python-format
+msgid "Edit managed device '%(controller_id)s'"
+msgstr "Systémové heslo sa nepodarilo uložiť"
+
+msgid ""
+"You can edit managed devices here. These devices are not not directly "
+"connected to this device but they are connected through another managed "
+"device."
+msgstr ""
+
+#, python-format
+msgid "Nicer name for your device with serial '%(controller_id)s'."
+msgstr ""
+
+msgid "accepted"
+msgstr ""
+
+msgid "incomming"
+msgstr ""
+
+#, fuzzy
+msgid "Netboot"
+msgstr "Reštartovať"
+
+#, fuzzy, python-format
+msgid "Connection to '%(controller_id)s' was interrupted."
+msgstr "Nastavenie siete bolo úspešne aktualizované."
+
+msgid "Close"
+msgstr ""
+
+msgid "Apply"
+msgstr ""
+
+msgid "Serial"
+msgstr ""
+
+#, fuzzy
+msgid "Paired"
+msgstr "Platnosť končí"
+
+#, fuzzy
+msgid "Unpaired"
+msgstr "Platnosť končí"
+
+msgid "Revoke"
+msgstr ""
+
+msgid "Accept"
+msgstr ""
+
+msgid "No suitable devices found."
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+#, fuzzy
+msgid "State"
+msgstr "stav"
+
+msgid "Currently there are no managed devices."
+msgstr ""
+
+#, fuzzy
+msgid "Devices"
+msgstr "Zariadenie"
+
+#, fuzzy
+msgid "Channels"
+msgstr "Kanál"
+
+msgid "Currently there are no subordinates."
+msgstr ""
+
+msgid "Manage devices which can be booted from this device through network."
+msgstr ""
+
+msgid "Devices suitable for netboot"
+msgstr ""
+
+#, fuzzy
+msgid "Loading devices..."
+msgstr "Načítava sa..."
+
+#, python-format
+msgid ""
+"\n"
+"    Note that if everything goes well the accepted devices should "
+"<strong>eventually appear</strong> on <a href=\"%(setup_url)s\">Set "
+"up</a> page.\n"
+"    "
+msgstr ""
+
+msgid ""
+"\n"
+"        On this tab you can set up other turris devices which can be "
+"controlled\n"
+"        by this device. You need to generate token on the remote tab on "
+"the device\n"
+"        you wan't to control. And insert the token here.\n"
+"    "
+msgstr ""
+
+#, fuzzy
+msgid "Add device"
+msgstr "Zariadenie"
+
+msgid "Upload token"
+msgstr ""
+
+#, fuzzy
+msgid "Device list"
+msgstr "Zariadenie"
+
+msgid "Loading manged devices..."
+msgstr ""
+
+msgid ""
+"\n"
+"        On this tab you can set up Wi-Fi of other devices controlled by "
+"this device."
+msgstr ""
