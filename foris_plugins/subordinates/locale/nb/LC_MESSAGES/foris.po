@@ -5,25 +5,27 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  Foris\n"
+"Project-Id-Version: Foris\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-01 11:20+0200\n"
-"PO-Revision-Date: 2019-03-14 07:04+0000\n"
+"PO-Revision-Date: 2019-04-30 14:36+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/nb_NO/>\n"
 "Language: nb\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/turris/foris/nb_NO/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.6.1\n"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "Set up"
-msgstr ""
+msgstr "Sett opp"
 
+#, fuzzy
 msgid "Managed devices: Set up"
-msgstr ""
+msgstr "Behandlede enheter: Sett opp"
 
 #, python-format
 msgid ""
@@ -83,7 +85,7 @@ msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
 msgid "Managed devices: Wi-Fi"
-msgstr ""
+msgstr "Behandlede enheter: Wi-Fi"
 
 #, fuzzy
 msgid "Wifi settings was sucessfully updated."
@@ -139,10 +141,10 @@ msgid "Nicer name for your device with serial '%(controller_id)s'."
 msgstr "Finere navn for din enhet med serienummer \"%(controller_id)s\"."
 
 msgid "accepted"
-msgstr ""
+msgstr "godkjent"
 
 msgid "incomming"
-msgstr ""
+msgstr "innkommende"
 
 #, fuzzy
 msgid "Netboot"
@@ -160,7 +162,7 @@ msgid "Apply"
 msgstr "Bruk"
 
 msgid "Serial"
-msgstr ""
+msgstr "Seriell"
 
 #, fuzzy
 msgid "Paired"
@@ -174,44 +176,42 @@ msgid "Revoke"
 msgstr "Tilbakekall"
 
 msgid "Accept"
-msgstr ""
+msgstr "Godkjent"
 
 msgid "No suitable devices found."
-msgstr ""
+msgstr "Fant ingen passende enheter."
 
 msgid "ID"
 msgstr "ID"
 
-#, fuzzy
 msgid "State"
-msgstr "Brukernavn"
+msgstr "TIlstand"
 
 #, fuzzy
 msgid "Currently there are no managed devices."
 msgstr "Det er for øyeblikket ingen underlegenheter."
 
-#, fuzzy
 msgid "Devices"
-msgstr "Enhet"
+msgstr "Enheter"
 
-#, fuzzy
 msgid "Channels"
-msgstr "Nettverkskanal"
+msgstr "Kanaler"
 
 msgid "Currently there are no subordinates."
 msgstr "Det er for øyeblikket ingen underlegenheter."
 
 msgid "Manage devices which can be booted from this device through network."
-msgstr ""
+msgstr "Behandle enheter som kan startes fra denne enheten gjennom nettverket."
 
+#, fuzzy
 msgid "Devices suitable for netboot"
-msgstr ""
+msgstr "Enheter som kan netboot-startes"
 
 #, fuzzy
 msgid "Loading devices..."
 msgstr "Laster inn underlegenheter…"
 
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "\n"
 "    Note that if everything goes well the accepted devices should "
@@ -219,6 +219,10 @@ msgid ""
 "up</a> page.\n"
 "    "
 msgstr ""
+"\n"
+"    Merk at hvis alt går bra vil godkjente enheter <strong>vises "
+"etterhvert</strong> på <a href=\"%(setup_url)s\">Sett opp</a>-siden.\n"
+"    "
 
 #, fuzzy
 msgid ""
@@ -244,9 +248,8 @@ msgstr "Enhet"
 msgid "Upload token"
 msgstr "Last opp symbol"
 
-#, fuzzy
 msgid "Device list"
-msgstr "Enhet"
+msgstr "Enhetsliste"
 
 #, fuzzy
 msgid "Loading manged devices..."
@@ -257,3 +260,6 @@ msgid ""
 "        On this tab you can set up Wi-Fi of other devices controlled by "
 "this device."
 msgstr ""
+"\n"
+"        På denne fanen kan du sette opp Wi-Fi på andre enheter som "
+"kontrolleres av denne enheten."
