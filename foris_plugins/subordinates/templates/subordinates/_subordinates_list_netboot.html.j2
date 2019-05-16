@@ -9,6 +9,10 @@
             <td title="{% trans %}Paired{% endtrans %}">
                 <i class="fas fa-check"></i>
             </td>
+            {% elif record.state == "transfering" %}
+            <td title="{% trans %}Paring{% endtrans %}">
+                <i class="fas fa-cog rotate"></i>
+            </td>
             {% else %}
             <td title="{% trans %}Unpaired{% endtrans %}">
                 <i class="fas fa-times"></i>
@@ -20,7 +24,7 @@
                     <input type="hidden" name="csrf_token" value="{{ get_csrf_token() }}">
                 {% if record.state == "accepted" %}
                     <button name="action" value="revoke" type="submit">{% trans %}Revoke{% endtrans %}</button>
-                {% else %}
+                {% elif record.state == "incoming" %}
                     <button name="action" value="accept" type="submit">{% trans %}Accept{% endtrans %}</button>
                 {% endif %}
                 </form>
