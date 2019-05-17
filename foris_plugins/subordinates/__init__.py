@@ -97,7 +97,7 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
         res = current_state.backend.perform("subordinates", "del", {"controller_id": controller_id})
         if res["result"]:
             return bottle.template(
-                "subordinates/_subordinates_message.html.j2",
+                "config/_message.html.j2",
                 message={
                     "classes": ["success"],
                     "text": _("Subordinate '%(controller_id)s' was successfully deleted.")
@@ -107,7 +107,7 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
             )
         else:
             return bottle.template(
-                "subordinates/_subordinates_message.html.j2",
+                "config/_message.html.j2",
                 message={
                     "classes": ["error"],
                     "text": _("Failed to delete subordinate '%(controller_id)s'.")
@@ -149,7 +149,7 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
                 }
 
         return bottle.template(
-            "subordinates/_subordinates_message.html.j2",
+            "config/_message.html.j2",
             message=message,
             template_adapter=bottle.Jinja2Template,
         )
