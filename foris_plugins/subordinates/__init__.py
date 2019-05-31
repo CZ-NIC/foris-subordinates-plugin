@@ -149,9 +149,7 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
                 }
 
         return bottle.template(
-            "config/_message.html.j2",
-            message=message,
-            template_adapter=bottle.Jinja2Template,
+            "config/_message.html.j2", message=message, template_adapter=bottle.Jinja2Template
         )
 
     def call_ajax_action(self, action):
@@ -279,7 +277,9 @@ class SubordinatesWifiPage(CommonPage):
         """Returns appropriate foris form and handler to generate response
         """
         if form_name == "wifi-form":
-            form = handlers.WifiEditForm(data, controller_id=controller_id, enable_guest=False)
+            form = handlers.SubordinatesWifiEditForm(
+                data, controller_id=controller_id, enable_guest=False
+            )
 
             def prepare_message(results: dict) -> dict:
                 if results["result"]:
