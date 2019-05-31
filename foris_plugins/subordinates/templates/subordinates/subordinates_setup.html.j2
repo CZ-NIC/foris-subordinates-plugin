@@ -35,7 +35,7 @@
         Foris.loadSubordinatesList = async () => {
             let resp = await $.get('{{ url("config_ajax", page_name="subordinates-setup") }}', {action: "list"});
             $("#subordinates-table").replaceWith(resp);
-            Foris.overrideSubordinatesButtons();
+            await Foris.overrideSubordinatesButtons();
             Foris.setSubordinatesTimeouts();
         }
         Foris.setSubordinatesTimeouts = () => {
@@ -76,7 +76,11 @@
             $(".subordinate-buttons").submit(async (e) => {
                 e.preventDefault();
                 let form = $(e.currentTarget);
-                let action = $(e.originalEvent.explicitOriginalTarget).val();
+                let button = $(e.originalEvent.explicitOriginalTarget);
+                while ("button" != button[0].localName) {
+                    button = button.parent();
+                }
+                let action = button.val();
                 let form_data = {};
                 let serialized = form.serializeArray();
                 for (record in serialized) {
@@ -113,7 +117,6 @@
                         renderResponse(resp);
                         break;
                     case "edit":
-
                         if (form.attr("class").includes("subsub-form")) {
                             resp = await $.ajax({
                                 type: "POST",

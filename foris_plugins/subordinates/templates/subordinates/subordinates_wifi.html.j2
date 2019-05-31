@@ -36,12 +36,12 @@
                     $(`#sub-${controller_id}`).find(".wifi-channels").text("?");
                 }
             };
-            run();  // call async don't wait for it
+            return run();  // call async don't wait for it
         };
         Foris.loadSubordinatesList = async () => {
             let resp = await $.get('{{ url("config_ajax", page_name="subordinates-wifi") }}', {action: "list"});
             $("#subordinates-table").replaceWith(resp);
-            Foris.overrideSubordinatesButtons();
+            await Foris.overrideSubordinatesButtons();
             Foris.setSubordinatesTimeouts();
         }
         Foris.setSubordinatesTimeouts = () => {
@@ -79,7 +79,11 @@
             $(".subordinate-buttons").submit(async (e) => {
                 e.preventDefault();
                 let form = $(e.currentTarget);
-                let action = $(e.originalEvent.explicitOriginalTarget).val();
+                let button = $(e.originalEvent.explicitOriginalTarget);
+                while ("button" != button[0].localName) {
+                    button = button.parent();
+                }
+                let action = button.val();
                 let form_data = {};
                 let serialized = form.serializeArray();
                 for (record in serialized) {
@@ -123,10 +127,6 @@
                 $("#subordinates-edit").hide('slow');
                 await $("#subordinates-edit").promise();
                 $("#subordinates-edit").replaceWith("<div id='subordinates-edit'></div>");
-                if (Foris.subordinatesGetView() == "subordinates") {
-                    $(".subordinate-buttons button").show('slow');
-                    await $(".subordinate-buttons button").promise();
-                }
             });
         };
         Foris.subordinateInEditMode = false;
@@ -162,11 +162,13 @@
                     state_element.addClass("state fas fa-check-circle");
                     Foris.subordinateSetKeepAliveTimeout(data.id);
                     if (!Foris.subordinatesAlive[data.id]) {  // query backend if needed
-                        Foris.queryBackendWifi(data.id);
+                        await Foris.queryBackendWifi(data.id);
                     }
                     Foris.subordinatesAlive[data.id] = true;
                     if (!Foris.subordinateInEditMode) {
-                        $(`#sub-${data.id}`).find("button[value=edit]").show("slow");
+                        if (parseInt($(`#sub-${data.id} td.wifi-count`).text()) != 0) {
+                            $(`#sub-${data.id}`).find("button[value=edit]").show("slow");
+                        }
                         let message = $(`div[data-controller-id=${data.id}].message`);
                         message.hide("slow");
                         await message.promise();
