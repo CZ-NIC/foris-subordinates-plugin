@@ -4,7 +4,7 @@ Foris.initNetbootRecordsForms = () => {
     $(".record-form").submit((e) => {
         e.preventDefault();
         let form = $(e.currentTarget);
-        let action = $(e.originalEvent.explicitOriginalTarget).val();
+        let action = $(document.activeElement).attr("value");
         switch (action) {
             case "revoke":
                 $.ajax({

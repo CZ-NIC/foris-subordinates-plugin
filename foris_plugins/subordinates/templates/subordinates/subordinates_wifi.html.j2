@@ -79,7 +79,7 @@
             $(".subordinate-buttons").submit(async (e) => {
                 e.preventDefault();
                 let form = $(e.currentTarget);
-                let button = $(e.originalEvent.explicitOriginalTarget);
+                let button = $(document.activeElement);
                 while ("button" != button[0].localName) {
                     button = button.parent();
                 }
