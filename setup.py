@@ -21,7 +21,7 @@ class BuildCmd(build_py):
 
 setup(
     name="Foris Subordinates Plugin",
-    version="0.3",
+    version="0.4",
     description="Subordinates plugin for foris web interface",
     author="CZ.NIC, z. s. p. o.",
     author_email="stepan.henek@nic.cz",
