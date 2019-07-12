@@ -125,13 +125,13 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
             if enabled:
                 message = {
                     "classes": ["success"],
-                    "text": _("Subordinate '%(controller_id)s' was sucessfuly enabled.")
+                    "text": _("Subordinate '%(controller_id)s' was successfully enabled.")
                     % dict(controller_id=controller_id),
                 }
             else:
                 message = {
                     "classes": ["success"],
-                    "text": _("Subordinate '%(controller_id)s' was sucessfuly disabled.")
+                    "text": _("Subordinate '%(controller_id)s' was successfully disabled.")
                     % dict(controller_id=controller_id),
                 }
         else:
@@ -188,7 +188,7 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
                 if results["result"]:
                     message = {
                         "classes": ["success"],
-                        "text": _("Device '%(controller_id)s' was sucessfully updated.")
+                        "text": _("Device '%(controller_id)s' was successfully updated.")
                         % dict(controller_id=data["controller_id"]),
                     }
 
@@ -212,7 +212,7 @@ class SubordinatesSetupPage(CommonPage, handlers.SubordinatesConfigHandler):
                 if results["result"]:
                     message = {
                         "classes": ["success"],
-                        "text": _("Subsubordinate '%(controller_id)s' was sucessfully updated.")
+                        "text": _("Subsubordinate '%(controller_id)s' was successfully updated.")
                         % dict(controller_id=data["controller_id"]),
                     }
 
@@ -285,11 +285,11 @@ class SubordinatesWifiPage(CommonPage):
                 if results["result"]:
                     message = {
                         "classes": ["success"],
-                        "text": _("Wifi settings was sucessfully updated."),
+                        "text": _("Wi-Fi settings were successfully updated."),
                     }
 
                 else:
-                    message = {"classes": ["error"], "text": _("Failed to update Wifi settings.")}
+                    message = {"classes": ["error"], "text": _("Failed to update Wi-Fi settings.")}
                 return message
 
             form.url = reverse(
