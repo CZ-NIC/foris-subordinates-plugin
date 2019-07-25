@@ -5,20 +5,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foris\n"
+"Project-Id-Version:  Foris\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-01 11:20+0200\n"
+"POT-Creation-Date: 2019-07-25 15:34+0200\n"
 "PO-Revision-Date: 2019-05-05 18:49+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
-"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
-"foris-subordinates-plugin/nb_NO/>\n"
 "Language: nb\n"
+"Language-Team: Norwegian Bokmål "
+"<https://hosted.weblate.org/projects/turris/foris-subordinates-"
+"plugin/nb_NO/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.7-dev\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
 msgstr "Sett opp"
@@ -50,11 +50,11 @@ msgid "Failed to delete subordinate '%(controller_id)s'."
 msgstr "Klarte ikke å slette underlegenhet \"%(controller_id)s\"."
 
 #, fuzzy, python-format
-msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+msgid "Subordinate '%(controller_id)s' was successfully enabled."
 msgstr "Passord lagret."
 
 #, fuzzy, python-format
-msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+msgid "Subordinate '%(controller_id)s' was successfully disabled."
 msgstr "Passord lagret."
 
 #, python-format
@@ -66,7 +66,7 @@ msgid "Failed to disable subordinate '%(controller_id)s'."
 msgstr "Klarte ikke å lagre systempassord"
 
 #, fuzzy, python-format
-msgid "Device '%(controller_id)s' was sucessfully updated."
+msgid "Device '%(controller_id)s' was successfully updated."
 msgstr "Enheten \"%(controller_id)s\" oppdatert."
 
 #, python-format
@@ -74,7 +74,7 @@ msgid "Failed to update subordinate '%(controller_id)s'."
 msgstr "Klarte ikke å oppdatere underlegenhet \"%(controller_id)s\"."
 
 #, fuzzy, python-format
-msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+msgid "Subsubordinate '%(controller_id)s' was successfully updated."
 msgstr "Oppsettet ble lagret."
 
 #, python-format
@@ -88,10 +88,11 @@ msgid "Managed devices: Wi-Fi"
 msgstr "Behandlede enheter: Wi-Fi"
 
 #, fuzzy
-msgid "Wifi settings was sucessfully updated."
+msgid "Wi-Fi settings were successfully updated."
 msgstr "Wi-Fi innstillinger oppdatert."
 
-msgid "Failed to update Wifi settings."
+#, fuzzy
+msgid "Failed to update Wi-Fi settings."
 msgstr "Klarte ikke å oppdetere Wi-Fi-innstillinger."
 
 #, fuzzy
@@ -110,8 +111,8 @@ msgid ""
 "You can edit managed devices here. These managed devices are directly "
 "connected to this device."
 msgstr ""
-"Du kan redigere behandlede enheter her Disse er direkte tilkoblet til denne "
-"enheten."
+"Du kan redigere behandlede enheter her Disse er direkte tilkoblet til "
+"denne enheten."
 
 msgid "Custom Name"
 msgstr "Egendefinert navn"
@@ -162,6 +163,9 @@ msgstr "Seriell"
 #, fuzzy
 msgid "Paired"
 msgstr "Parret"
+
+msgid "Paring"
+msgstr ""
 
 #, fuzzy
 msgid "Unpaired"
@@ -221,18 +225,18 @@ msgstr ""
 #, fuzzy
 msgid ""
 "\n"
-"        On this tab you can set up other turris devices which can be "
+"        On this tab, you can set up other Turris devices which can be "
 "controlled\n"
-"        by this device. You need to generate token on the remote tab on "
-"the device\n"
-"        you wan't to control. And insert the token here.\n"
+"        by this device. You need to generate a token on the remote tab on"
+" the device\n"
+"        you want to control and insert the token here.\n"
 "    "
 msgstr ""
 "\n"
 "        I denne fanen kan du sette opp andre Turris-enheter, som kan "
 "kontrolleres\n"
-"        av denne enheten. Du kan generere et symbol i fanen annensteds hen, "
-"på enheten\n"
+"        av denne enheten. Du kan generere et symbol i fanen annensteds "
+"hen, på enheten\n"
 "        du ønsker å kontrollere og lime inn symbolet her.\n"
 "    "
 
@@ -246,14 +250,16 @@ msgid "Device list"
 msgstr "Enhetsliste"
 
 #, fuzzy
-msgid "Loading manged devices..."
+msgid "Loading managed devices..."
 msgstr "Laster inn behandlede enheter…"
 
+#, fuzzy
 msgid ""
 "\n"
-"        On this tab you can set up Wi-Fi of other devices controlled by "
+"        On this tab, you can set up Wi-Fi of other devices controlled by "
 "this device."
 msgstr ""
 "\n"
 "        På denne fanen kan du sette opp Wi-Fi på andre enheter som "
 "kontrolleres av denne enheten."
+

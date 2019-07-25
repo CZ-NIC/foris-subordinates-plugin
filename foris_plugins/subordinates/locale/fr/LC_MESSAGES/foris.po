@@ -5,20 +5,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foris\n"
+"Project-Id-Version:  Foris\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-01 11:20+0200\n"
+"POT-Creation-Date: 2019-07-25 15:34+0200\n"
 "PO-Revision-Date: 2019-06-18 19:04+0000\n"
 "Last-Translator: ButterflyOfFire <ButterflyOfFire@protonmail.com>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/turris/"
-"foris-subordinates-plugin/fr/>\n"
 "Language: fr\n"
+"Language-Team: French <https://hosted.weblate.org/projects/turris/foris-"
+"subordinates-plugin/fr/>\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 3.7\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
 msgstr ""
@@ -47,11 +46,11 @@ msgid "Failed to delete subordinate '%(controller_id)s'."
 msgstr ""
 
 #, fuzzy, python-format
-msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+msgid "Subordinate '%(controller_id)s' was successfully enabled."
 msgstr "Le mot de passe système a été enregistré avec succès."
 
 #, fuzzy, python-format
-msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+msgid "Subordinate '%(controller_id)s' was successfully disabled."
 msgstr "Le mot de passe système a été enregistré avec succès."
 
 #, python-format
@@ -63,7 +62,7 @@ msgid "Failed to disable subordinate '%(controller_id)s'."
 msgstr ""
 
 #, fuzzy, python-format
-msgid "Device '%(controller_id)s' was sucessfully updated."
+msgid "Device '%(controller_id)s' was successfully updated."
 msgstr "La configuration du réseau a été mise à jour avec succès."
 
 #, python-format
@@ -71,7 +70,7 @@ msgid "Failed to update subordinate '%(controller_id)s'."
 msgstr ""
 
 #, fuzzy, python-format
-msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+msgid "Subsubordinate '%(controller_id)s' was successfully updated."
 msgstr "La configuration du réseau a été mise à jour avec succès."
 
 #, python-format
@@ -85,10 +84,10 @@ msgid "Managed devices: Wi-Fi"
 msgstr ""
 
 #, fuzzy
-msgid "Wifi settings was sucessfully updated."
+msgid "Wi-Fi settings were successfully updated."
 msgstr "La configuration du réseau a été mise à jour avec succès."
 
-msgid "Failed to update Wifi settings."
+msgid "Failed to update Wi-Fi settings."
 msgstr ""
 
 msgid "Managed devices"
@@ -155,6 +154,9 @@ msgstr ""
 msgid "Paired"
 msgstr ""
 
+msgid "Paring"
+msgstr ""
+
 msgid "Unpaired"
 msgstr ""
 
@@ -209,11 +211,11 @@ msgstr ""
 
 msgid ""
 "\n"
-"        On this tab you can set up other turris devices which can be "
+"        On this tab, you can set up other Turris devices which can be "
 "controlled\n"
-"        by this device. You need to generate token on the remote tab on "
-"the device\n"
-"        you wan't to control. And insert the token here.\n"
+"        by this device. You need to generate a token on the remote tab on"
+" the device\n"
+"        you want to control and insert the token here.\n"
 "    "
 msgstr ""
 
@@ -228,11 +230,38 @@ msgstr ""
 msgid "Device list"
 msgstr "Appareil"
 
-msgid "Loading manged devices..."
-msgstr ""
+#, fuzzy
+msgid "Loading managed devices..."
+msgstr "Chargement en cours..."
 
 msgid ""
 "\n"
-"        On this tab you can set up Wi-Fi of other devices controlled by "
+"        On this tab, you can set up Wi-Fi of other devices controlled by "
 "this device."
 msgstr ""
+
+#~ msgid "Failed to update Wifi settings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "        On this tab you can set"
+#~ " up other turris devices which can"
+#~ " be controlled\n"
+#~ "        by this device. You need "
+#~ "to generate token on the remote "
+#~ "tab on the device\n"
+#~ "        you wan't to control. And insert the token here.\n"
+#~ "    "
+#~ msgstr ""
+
+#~ msgid "Loading manged devices..."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "        On this tab you can set"
+#~ " up Wi-Fi of other devices "
+#~ "controlled by this device."
+#~ msgstr ""
+

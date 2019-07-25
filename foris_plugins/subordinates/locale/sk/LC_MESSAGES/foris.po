@@ -16,18 +16,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Foris 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-01 11:20+0200\n"
+"POT-Creation-Date: 2019-07-25 15:34+0200\n"
 "PO-Revision-Date: 2019-05-05 18:49+0000\n"
 "Last-Translator: Vladimír Záhradník <vladimir.zahradnik@gmail.com>\n"
-"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/"
-"foris-subordinates-plugin/sk/>\n"
 "Language: sk\n"
+"Language-Team: Slovak <https://hosted.weblate.org/projects/turris/foris-"
+"subordinates-plugin/sk/>\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 3.7-dev\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
 msgstr "Nastaviť"
@@ -40,8 +39,8 @@ msgid ""
 "Token was successfully added and client '%(controller_id)s' should be "
 "visible in a moment."
 msgstr ""
-"Token bol úspešne pridaný a klient „%(controller_id)s“ by v tejto chvíli už "
-"mal byť viditeľný."
+"Token bol úspešne pridaný a klient „%(controller_id)s“ by v tejto chvíli "
+"už mal byť viditeľný."
 
 msgid "Failed to add token."
 msgstr "Token sa nepodarilo vymazať."
@@ -57,12 +56,12 @@ msgstr "Podriadené „%(controller_id)s“ bolo úspešne vymazané."
 msgid "Failed to delete subordinate '%(controller_id)s'."
 msgstr "Nepodarilo sa vymazať podriadené „%(controller_id)s“."
 
-#, python-format
-msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was successfully enabled."
 msgstr "Podriadené „%(controller_id)s“ bolo úspešne zapnuté."
 
-#, python-format
-msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+#, fuzzy, python-format
+msgid "Subordinate '%(controller_id)s' was successfully disabled."
 msgstr "Podriadené „%(controller_id)s“ bolo úspešne vypnuté."
 
 #, python-format
@@ -73,16 +72,16 @@ msgstr "Nepodarilo sa zapnúť podriadené „%(controller_id)s“."
 msgid "Failed to disable subordinate '%(controller_id)s'."
 msgstr "Nepodarilo sa vypnúť podriadené „%(controller_id)s“."
 
-#, python-format
-msgid "Device '%(controller_id)s' was sucessfully updated."
+#, fuzzy, python-format
+msgid "Device '%(controller_id)s' was successfully updated."
 msgstr "Zariadenie „%(controller_id)s“ bolo úspešne aktualizované."
 
 #, python-format
 msgid "Failed to update subordinate '%(controller_id)s'."
 msgstr "Nepodarilo sa aktualizovať podriadené „%(controller_id)s“."
 
-#, python-format
-msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+#, fuzzy, python-format
+msgid "Subsubordinate '%(controller_id)s' was successfully updated."
 msgstr "Podriadené „%(controller_id)s“ bolo úspešne aktualizované."
 
 #, python-format
@@ -95,10 +94,12 @@ msgstr "Wi-Fi"
 msgid "Managed devices: Wi-Fi"
 msgstr "Spravované zariadenia: Wi-Fi"
 
-msgid "Wifi settings was sucessfully updated."
+#, fuzzy
+msgid "Wi-Fi settings were successfully updated."
 msgstr "Nastavenie WiFi bolo úspešne aktualizované."
 
-msgid "Failed to update Wifi settings."
+#, fuzzy
+msgid "Failed to update Wi-Fi settings."
 msgstr "Nastavenie WiFi sa nepodarilo uplatniť."
 
 msgid "Managed devices"
@@ -115,8 +116,8 @@ msgid ""
 "You can edit managed devices here. These managed devices are directly "
 "connected to this device."
 msgstr ""
-"Tu je možné upraviť spravované zariadenia. Tie sú pripojené priamo k tomuto "
-"zariadeniu."
+"Tu je možné upraviť spravované zariadenia. Tie sú pripojené priamo k "
+"tomuto zariadeniu."
 
 msgid "Custom Name"
 msgstr "Používateľom určený názov"
@@ -134,9 +135,9 @@ msgid ""
 "connected to this device but they are connected through another managed "
 "device."
 msgstr ""
-"Spravované zariadenia je možné upravovať tu. Tieto zariadenia nie sú priamo "
-"pripojené k tomuto zariadeniu, ale sú pripojené pomocou iného spravovaného "
-"zariadenia."
+"Spravované zariadenia je možné upravovať tu. Tieto zariadenia nie sú "
+"priamo pripojené k tomuto zariadeniu, ale sú pripojené pomocou iného "
+"spravovaného zariadenia."
 
 #, python-format
 msgid "Nicer name for your device with serial '%(controller_id)s'."
@@ -168,6 +169,9 @@ msgstr "Sériové číslo"
 
 msgid "Paired"
 msgstr "Spárované"
+
+msgid "Paring"
+msgstr ""
 
 msgid "Unpaired"
 msgstr "Spárovanie zrušené"
@@ -220,24 +224,25 @@ msgid ""
 msgstr ""
 "\n"
 "    Všimnite si, že pokiaľ sa všetko podarí, prijaté zariadenia by sa "
-"<strong>prípadne mali objaviť</strong> na stránke <a href=\"%(setup_url)s\""
-">Nastaviť</a>.\n"
+"<strong>prípadne mali objaviť</strong> na stránke <a "
+"href=\"%(setup_url)s\">Nastaviť</a>.\n"
 "    "
 
+#, fuzzy
 msgid ""
 "\n"
-"        On this tab you can set up other turris devices which can be "
+"        On this tab, you can set up other Turris devices which can be "
 "controlled\n"
-"        by this device. You need to generate token on the remote tab on "
-"the device\n"
-"        you wan't to control. And insert the token here.\n"
+"        by this device. You need to generate a token on the remote tab on"
+" the device\n"
+"        you want to control and insert the token here.\n"
 "    "
 msgstr ""
 "\n"
-"        Na tejto karte je možné nastaviť ostatné Turris zariadenia, ktoré je "
-"možné\n"
-"        ovládať z tohto zariadenia. Na zariadení, ktoré chcete ovládať, je "
-"potrebné\n"
+"        Na tejto karte je možné nastaviť ostatné Turris zariadenia, ktoré"
+" je možné\n"
+"        ovládať z tohto zariadenia. Na zariadení, ktoré chcete ovládať, "
+"je potrebné\n"
 "        na karte vzdialené vytvoriť token. Ten potom vložte sem.\n"
 "    "
 
@@ -250,14 +255,17 @@ msgstr "Nahrať token"
 msgid "Device list"
 msgstr "Zoznam zariadení"
 
-msgid "Loading manged devices..."
+#, fuzzy
+msgid "Loading managed devices..."
 msgstr "Načítavajú sa spravované zariadenia…"
 
+#, fuzzy
 msgid ""
 "\n"
-"        On this tab you can set up Wi-Fi of other devices controlled by "
+"        On this tab, you can set up Wi-Fi of other devices controlled by "
 "this device."
 msgstr ""
 "\n"
-"        Na tejto karte je možné nastaviť Wi-Fi ostatných zariadení, ktorá je "
-"riadená týmto zariadením."
+"        Na tejto karte je možné nastaviť Wi-Fi ostatných zariadení, ktorá"
+" je riadená týmto zariadením."
+

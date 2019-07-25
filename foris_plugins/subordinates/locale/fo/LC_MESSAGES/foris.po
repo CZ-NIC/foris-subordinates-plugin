@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version:  Foris\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-04-01 11:20+0200\n"
+"POT-Creation-Date: 2019-07-25 15:34+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Automatically generated\n"
 "Language: fo\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
+"Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
 msgstr ""
@@ -45,11 +45,11 @@ msgid "Failed to delete subordinate '%(controller_id)s'."
 msgstr ""
 
 #, python-format
-msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+msgid "Subordinate '%(controller_id)s' was successfully enabled."
 msgstr ""
 
 #, python-format
-msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+msgid "Subordinate '%(controller_id)s' was successfully disabled."
 msgstr ""
 
 #, python-format
@@ -61,7 +61,7 @@ msgid "Failed to disable subordinate '%(controller_id)s'."
 msgstr ""
 
 #, python-format
-msgid "Device '%(controller_id)s' was sucessfully updated."
+msgid "Device '%(controller_id)s' was successfully updated."
 msgstr ""
 
 #, python-format
@@ -69,7 +69,7 @@ msgid "Failed to update subordinate '%(controller_id)s'."
 msgstr ""
 
 #, python-format
-msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+msgid "Subsubordinate '%(controller_id)s' was successfully updated."
 msgstr ""
 
 #, python-format
@@ -82,10 +82,10 @@ msgstr ""
 msgid "Managed devices: Wi-Fi"
 msgstr ""
 
-msgid "Wifi settings was sucessfully updated."
+msgid "Wi-Fi settings were successfully updated."
 msgstr ""
 
-msgid "Failed to update Wifi settings."
+msgid "Failed to update Wi-Fi settings."
 msgstr ""
 
 msgid "Managed devices"
@@ -149,6 +149,9 @@ msgstr ""
 msgid "Paired"
 msgstr ""
 
+msgid "Paring"
+msgstr ""
+
 msgid "Unpaired"
 msgstr ""
 
@@ -199,11 +202,11 @@ msgstr ""
 
 msgid ""
 "\n"
-"        On this tab you can set up other turris devices which can be "
+"        On this tab, you can set up other Turris devices which can be "
 "controlled\n"
-"        by this device. You need to generate token on the remote tab on "
-"the device\n"
-"        you wan't to control. And insert the token here.\n"
+"        by this device. You need to generate a token on the remote tab on"
+" the device\n"
+"        you want to control and insert the token here.\n"
 "    "
 msgstr ""
 
@@ -216,11 +219,52 @@ msgstr ""
 msgid "Device list"
 msgstr ""
 
-msgid "Loading manged devices..."
+msgid "Loading managed devices..."
 msgstr ""
 
 msgid ""
 "\n"
-"        On this tab you can set up Wi-Fi of other devices controlled by "
+"        On this tab, you can set up Wi-Fi of other devices controlled by "
 "this device."
 msgstr ""
+
+#~ msgid "Subordinate '%(controller_id)s' was sucessfuly enabled."
+#~ msgstr ""
+
+#~ msgid "Subordinate '%(controller_id)s' was sucessfuly disabled."
+#~ msgstr ""
+
+#~ msgid "Device '%(controller_id)s' was sucessfully updated."
+#~ msgstr ""
+
+#~ msgid "Subsubordinate '%(controller_id)s' was sucessfully updated."
+#~ msgstr ""
+
+#~ msgid "Wifi settings was sucessfully updated."
+#~ msgstr ""
+
+#~ msgid "Failed to update Wifi settings."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "        On this tab you can set"
+#~ " up other turris devices which can"
+#~ " be controlled\n"
+#~ "        by this device. You need "
+#~ "to generate token on the remote "
+#~ "tab on the device\n"
+#~ "        you wan't to control. And insert the token here.\n"
+#~ "    "
+#~ msgstr ""
+
+#~ msgid "Loading manged devices..."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "        On this tab you can set"
+#~ " up Wi-Fi of other devices "
+#~ "controlled by this device."
+#~ msgstr ""
+
