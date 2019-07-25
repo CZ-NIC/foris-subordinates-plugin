@@ -17,22 +17,23 @@ msgstr ""
 "Project-Id-Version: Foris 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-01 11:20+0200\n"
-"PO-Revision-Date: 2019-03-16 22:04+0000\n"
+"PO-Revision-Date: 2019-05-05 18:49+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/de/>\n"
 "Language: de\n"
-"Language-Team: German "
-"<https://hosted.weblate.org/projects/turris/foris/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.7-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "Set up"
-msgstr ""
+msgstr "Einrichten"
 
 msgid "Managed devices: Set up"
-msgstr ""
+msgstr "Verwaltete Geräte: einrichten"
 
 #, python-format
 msgid ""
@@ -76,11 +77,9 @@ msgstr ""
 "Der Fernzugriff für das untergeordnete Gerät '%(controller_id)s' konnte "
 "nicht deaktiviert werden."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Device '%(controller_id)s' was sucessfully updated."
-msgstr ""
-"Das untergeordnete Geräte '%(controller_id)s' wurde erfolgreich "
-"aktualisiert."
+msgstr "Das Gerät '%(controller_id)s' wurde erfolgreich aktualisiert."
 
 #, python-format
 msgid "Failed to update subordinate '%(controller_id)s'."
@@ -104,7 +103,7 @@ msgid "Wi-Fi"
 msgstr "WLAN"
 
 msgid "Managed devices: Wi-Fi"
-msgstr ""
+msgstr "Verwaltete Geräte: WLAN"
 
 msgid "Wifi settings was sucessfully updated."
 msgstr "Die WLAN-Einstellungen wurden erfolgreich aktualisiert."
@@ -112,24 +111,22 @@ msgstr "Die WLAN-Einstellungen wurden erfolgreich aktualisiert."
 msgid "Failed to update Wifi settings."
 msgstr "Die WLAN-Einstellungen konnten nicht aktualisiert werden."
 
-#, fuzzy
 msgid "Managed devices"
-msgstr "Untergeordnete Geräte"
+msgstr "Verwaltete Geräte"
 
 msgid "Token file"
 msgstr "Token-Datei"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Edit device '%(controller_id)s'"
-msgstr "Bearbeite untergeordnetes Gerät '%(controller_id)s'"
+msgstr "Gerät '%(controller_id)s' bearbeiten"
 
-#, fuzzy
 msgid ""
 "You can edit managed devices here. These managed devices are directly "
 "connected to this device."
 msgstr ""
-"Sie können die untergeordneten Geräte hier bearbeiten. Untergeordnete "
-"Geräte sind direkt mit diesem Gerät verbunden."
+"Sie können verwaltete Geräte hier bearbeiten. Diese verwalteten Geräte sind "
+"direkt mit diesem Gerät verbunden."
 
 msgid "Custom Name"
 msgstr "Benutzerdefinierter Name"
@@ -138,39 +135,35 @@ msgstr "Benutzerdefinierter Name"
 msgid "Nicer name for your device '%(controller_id)s'."
 msgstr "Kurzname für Ihr Gerät '%(controller_id)s'."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Edit managed device '%(controller_id)s'"
-msgstr "Kurzname für Ihr Gerät '%(controller_id)s'."
+msgstr "Verwaltetes Gerät '%(controller_id)s'' bearbeiten"
 
-#, fuzzy
 msgid ""
 "You can edit managed devices here. These devices are not not directly "
 "connected to this device but they are connected through another managed "
 "device."
 msgstr ""
-"Hier können Sie Ihre unter-untergeordneten Geräte bearbeiten. Unter-"
-"untergeordnete Geräte sind solche, die nicht direkt mit diesem Gerät "
-"verbunden sind, sondern über ein untergeordnetes Gerät."
+"Sie können verwaltete Geräte hier bearbeiten. Diese Geräte sind nicht direkt "
+"mit diesem Gerät verbunden, sondern werden über ein anderes verwaltetes "
+"Gerät verbunden."
 
 #, python-format
 msgid "Nicer name for your device with serial '%(controller_id)s'."
 msgstr "Kurzname für das Gerät mit der Nummer '%(controller_id)s'."
 
 msgid "accepted"
-msgstr ""
+msgstr "akzeptiert"
 
 msgid "incomming"
-msgstr ""
+msgstr "eingehend"
 
-#, fuzzy
 msgid "Netboot"
-msgstr "Systemneustart"
+msgstr "Netzboot"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Connection to '%(controller_id)s' was interrupted."
-msgstr ""
-"Das untergeordnete Geräte '%(controller_id)s' wurde erfolgreich "
-"aktualisiert."
+msgstr "Die Verbindung zu '%(controller_id)s' wurde unterbrochen."
 
 msgid "Close"
 msgstr "Schließen"
@@ -179,24 +172,22 @@ msgid "Apply"
 msgstr "Anwenden"
 
 msgid "Serial"
-msgstr ""
+msgstr "Seriell"
 
-#, fuzzy
 msgid "Paired"
-msgstr "abgelaufen"
+msgstr "Gepaart"
 
-#, fuzzy
 msgid "Unpaired"
-msgstr "abgelaufen"
+msgstr "Paarung getrennt"
 
 msgid "Revoke"
 msgstr "Widerrufen"
 
 msgid "Accept"
-msgstr ""
+msgstr "Akzeptieren"
 
 msgid "No suitable devices found."
-msgstr ""
+msgstr "Keine geeigneten Geräte gefunden."
 
 msgid "ID"
 msgstr "ID"
@@ -204,9 +195,8 @@ msgstr "ID"
 msgid "State"
 msgstr "Status"
 
-#, fuzzy
 msgid "Currently there are no managed devices."
-msgstr "Derzeit gibt es keine untergeordneten Geräte."
+msgstr "Derzeit gibt es keine verwalteten Geräte."
 
 msgid "Devices"
 msgstr "Geräte"
@@ -219,13 +209,14 @@ msgstr "Derzeit gibt es keine untergeordneten Geräte."
 
 msgid "Manage devices which can be booted from this device through network."
 msgstr ""
+"Verwalten Sie Geräte, die von diesem Gerät über das Netzwerk gebootet werden "
+"können."
 
 msgid "Devices suitable for netboot"
-msgstr ""
+msgstr "Für den Netzboot geeignete Geräte"
 
-#, fuzzy
 msgid "Loading devices..."
-msgstr "Untergeordnete Geräte laden..."
+msgstr "Geräte werden geladen..."
 
 #, python-format
 msgid ""
@@ -235,8 +226,12 @@ msgid ""
 "up</a> page.\n"
 "    "
 msgstr ""
+"\n"
+"    Beachten Sie, dass, wenn alles gut läuft, die akzeptierten Geräte "
+"<strong>eventuell</strong> auf der <a href=\"%(setup_url)s\">Set up</a> "
+"Seite erscheinen sollten.\n"
+"    "
 
-#, fuzzy
 msgid ""
 "\n"
 "        On this tab you can set up other turris devices which can be "
@@ -247,29 +242,29 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        Hier können Sie weitere Turris-Geräte einrichten, die durch "
-"dieses Gerät\n"
-"        gesteuert werden können. Sie müssen ein Token auf dem zu "
-"steuerndem\n"
-"        Gerät generieren (unter Remote), und das Token dann hier einfügen."
+"        Hier können Sie weitere Turris-Geräte einrichten, die durch dieses "
+"Gerät\n"
+"        gesteuert werden können. Sie müssen ein Token auf dem zu steuernden\n"
+"        Gerät generieren (unter Remote) und das Token dann hier einfügen.\n"
+"    "
 
-#, fuzzy
 msgid "Add device"
-msgstr "Gerät"
+msgstr "Gerät hinzufügen"
 
 msgid "Upload token"
 msgstr "Token hochladen"
 
-#, fuzzy
 msgid "Device list"
-msgstr "Geräte"
+msgstr "Geräteliste"
 
-#, fuzzy
 msgid "Loading manged devices..."
-msgstr "Untergeordnete Geräte"
+msgstr "Laden von verwalteten Geräten....."
 
 msgid ""
 "\n"
 "        On this tab you can set up Wi-Fi of other devices controlled by "
 "this device."
 msgstr ""
+"\n"
+"        Auf dieser Registerkarte können Sie das WLAN anderer Geräte "
+"einrichten, die von diesem Gerät gesteuert werden."

@@ -18,22 +18,23 @@ msgstr ""
 "Project-Id-Version: Foris 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-01 11:20+0200\n"
-"PO-Revision-Date: 2019-03-14 07:04+0000\n"
+"PO-Revision-Date: 2019-05-05 18:49+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/cs/>\n"
 "Language: cs\n"
-"Language-Team: Czech "
-"<https://hosted.weblate.org/projects/turris/foris/cs/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.7-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "Set up"
-msgstr ""
+msgstr "Nastavit"
 
 msgid "Managed devices: Set up"
-msgstr ""
+msgstr "Spravovaná zařízení: nastavit"
 
 #, python-format
 msgid ""
@@ -73,9 +74,9 @@ msgstr "Nepodařilo se zapnout podřízené „%(controller_id)s“."
 msgid "Failed to disable subordinate '%(controller_id)s'."
 msgstr "Nepodařilo se vypnout podřízené „%(controller_id)s“."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Device '%(controller_id)s' was sucessfully updated."
-msgstr "Podřízené „%(controller_id)s“ bylo úspěšně aktualizováno."
+msgstr "Zařízení„%(controller_id)s“ bylo úspěšně aktualizováno."
 
 #, python-format
 msgid "Failed to update subordinate '%(controller_id)s'."
@@ -93,7 +94,7 @@ msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
 msgid "Managed devices: Wi-Fi"
-msgstr ""
+msgstr "Spravovaná zařízení: Wi-Fi"
 
 msgid "Wifi settings was sucessfully updated."
 msgstr "Nastavení WiFi bylo úspěšně aktualizováno."
@@ -101,22 +102,22 @@ msgstr "Nastavení WiFi bylo úspěšně aktualizováno."
 msgid "Failed to update Wifi settings."
 msgstr "Nastavení WiFi se nepodařilo uplatnit."
 
-#, fuzzy
 msgid "Managed devices"
-msgstr "Podřízená zařízení"
+msgstr "Spravovaná zařízení"
 
 msgid "Token file"
 msgstr "Soubor s tokenem"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Edit device '%(controller_id)s'"
-msgstr "Upravit podřízené „%(controller_id)s“"
+msgstr "Upravit zařízení „%(controller_id)s“"
 
-#, fuzzy
 msgid ""
 "You can edit managed devices here. These managed devices are directly "
 "connected to this device."
-msgstr "Zde je možné upravit podřízená. Ta jsou připojena přímo k tomuto zařízení."
+msgstr ""
+"Zde je možné upravit spravovaná zařízení. Ta jsou připojena přímo k tomuto "
+"zařízení."
 
 msgid "Custom Name"
 msgstr "Uživatelsky určený název"
@@ -125,19 +126,18 @@ msgstr "Uživatelsky určený název"
 msgid "Nicer name for your device '%(controller_id)s'."
 msgstr "Člověku srozumitelný název pro zařízení „%(controller_id)s“."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Edit managed device '%(controller_id)s'"
-msgstr "Člověku srozumitelný název pro zařízení „%(controller_id)s“."
+msgstr "Upravit spravované zařízení „%(controller_id)s“"
 
-#, fuzzy
 msgid ""
 "You can edit managed devices here. These devices are not not directly "
 "connected to this device but they are connected through another managed "
 "device."
 msgstr ""
-"Podřízená je možné upravovat zde. Podřízená jsou zařízení jsou ta, která "
-"nejsou přímo připojená k tomuto zařízení, ale jsou připojena pomocí "
-"podřízeného."
+"Spravovaná zařízení je možné upravovat zde. Tato zařízení nejsou přímo "
+"připojená k tomuto zařízení, ale jsou připojena pomocí jiného spravovaného "
+"zařízení."
 
 #, python-format
 msgid "Nicer name for your device with serial '%(controller_id)s'."
@@ -146,18 +146,17 @@ msgstr ""
 "„%(controller_id)s“."
 
 msgid "accepted"
-msgstr ""
+msgstr "přijato"
 
 msgid "incomming"
-msgstr ""
+msgstr "příchozí"
 
-#, fuzzy
 msgid "Netboot"
-msgstr "Restartovat"
+msgstr "Zavedení ze sítě"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Connection to '%(controller_id)s' was interrupted."
-msgstr "Podřízené „%(controller_id)s“ bylo úspěšně aktualizováno."
+msgstr "Spojení s „%(controller_id)s“ bylo přerušeno."
 
 msgid "Close"
 msgstr "Zavřít"
@@ -166,24 +165,22 @@ msgid "Apply"
 msgstr "Použít"
 
 msgid "Serial"
-msgstr ""
+msgstr "Sériové číslo"
 
-#, fuzzy
 msgid "Paired"
-msgstr "platnost končila"
+msgstr "Spárováno"
 
-#, fuzzy
 msgid "Unpaired"
-msgstr "platnost končila"
+msgstr "Spárování zrušeno"
 
 msgid "Revoke"
 msgstr "Odvolat platnost"
 
 msgid "Accept"
-msgstr ""
+msgstr "Přijmout"
 
 msgid "No suitable devices found."
-msgstr ""
+msgstr "Nenalezena použitelná zařízení."
 
 msgid "ID"
 msgstr "Identif."
@@ -191,9 +188,8 @@ msgstr "Identif."
 msgid "State"
 msgstr "Stav"
 
-#, fuzzy
 msgid "Currently there are no managed devices."
-msgstr "V tuto chvíli zde nejsou žádná podřízená."
+msgstr "V tuto chvíli zde nejsou žádná spravovaná zařízení."
 
 msgid "Devices"
 msgstr "Zařízení"
@@ -206,13 +202,14 @@ msgstr "V tuto chvíli zde nejsou žádná podřízená."
 
 msgid "Manage devices which can be booted from this device through network."
 msgstr ""
+"Spravovat zařízení které je možné zavést z tohoto zařízení prostřednictvím "
+"sítě."
 
 msgid "Devices suitable for netboot"
-msgstr ""
+msgstr "Zařízení použitelná pro zavedení ze sítě"
 
-#, fuzzy
 msgid "Loading devices..."
-msgstr "Načítání podřízených…"
+msgstr "Načítání zařízení…"
 
 #, python-format
 msgid ""
@@ -222,8 +219,12 @@ msgid ""
 "up</a> page.\n"
 "    "
 msgstr ""
+"\n"
+"    Všimněte si, že pokud se vše podaří, přijatá zařízení by se <strong>"
+"případně měla objevit</strong> na stránce <a href=\"%(setup_url)s\""
+">Nastavit</a>.\n"
+"    "
 
-#, fuzzy
 msgid ""
 "\n"
 "        On this tab you can set up other turris devices which can be "
@@ -234,29 +235,30 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        Na této kartě je možné nastavit ostatní Turris zařízení, které je"
-" možné\n"
+"        Na této kartě je možné nastavit ostatní Turris zařízení, které je "
+"možné\n"
 "        z tohoto. Na zařízení, které chcete ovládat je třeba na kartě "
 "vzdálené\n"
-"        vytvořit token. Ten pak vložte sem."
+"        vytvořit token. Ten pak vložte sem.\n"
+"    "
 
-#, fuzzy
 msgid "Add device"
-msgstr "Zařízení"
+msgstr "Přidat zařízení"
 
 msgid "Upload token"
 msgstr "Nahrát token"
 
-#, fuzzy
 msgid "Device list"
-msgstr "Zařízení"
+msgstr "Seznam zařízení"
 
-#, fuzzy
 msgid "Loading manged devices..."
-msgstr "Podřízená zařízení"
+msgstr "Načítání spravovaných zařízení…"
 
 msgid ""
 "\n"
 "        On this tab you can set up Wi-Fi of other devices controlled by "
 "this device."
 msgstr ""
+"\n"
+"        Na této kartě je možné nastavit Wi-Fi ostatních zařízení, řízené "
+"tímto zařízením."

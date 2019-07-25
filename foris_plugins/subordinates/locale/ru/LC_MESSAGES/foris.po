@@ -5,26 +5,27 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  Foris\n"
+"Project-Id-Version: Foris\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-04-01 11:20+0200\n"
-"PO-Revision-Date: 2019-03-18 11:42+0000\n"
+"PO-Revision-Date: 2019-05-02 14:49+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/ru/>\n"
 "Language: ru\n"
-"Language-Team: Russian "
-"<https://hosted.weblate.org/projects/turris/foris/ru/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.7-dev\n"
 "Generated-By: Babel 2.6.0\n"
 
 msgid "Set up"
-msgstr ""
+msgstr "Настроить"
 
 msgid "Managed devices: Set up"
-msgstr ""
+msgstr "Управляемые устройства: Настройка"
 
 #, python-format
 msgid ""
@@ -64,9 +65,9 @@ msgstr "Не удалось включить нижестоящий '%(controlle
 msgid "Failed to disable subordinate '%(controller_id)s'."
 msgstr "Не удалось отключить нижестоящий '%(controller_id)s'."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Device '%(controller_id)s' was sucessfully updated."
-msgstr "Нижестоящий '%(controller_id)s' был успешно обновлён."
+msgstr "Устройство '%(controller_id)s' было успешно обновлёно."
 
 #, python-format
 msgid "Failed to update subordinate '%(controller_id)s'."
@@ -84,7 +85,7 @@ msgid "Wi-Fi"
 msgstr "Wi-Fi"
 
 msgid "Managed devices: Wi-Fi"
-msgstr ""
+msgstr "Управляемые устройства: Wi-Fi"
 
 msgid "Wifi settings was sucessfully updated."
 msgstr "Настройки WiFi были успешно обновлены."
@@ -92,24 +93,22 @@ msgstr "Настройки WiFi были успешно обновлены."
 msgid "Failed to update Wifi settings."
 msgstr "Не удалось обновить настройки WiFi."
 
-#, fuzzy
 msgid "Managed devices"
-msgstr "Нижестоящие устройства"
+msgstr "Управляемые устройства"
 
 msgid "Token file"
 msgstr "Файл токена"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Edit device '%(controller_id)s'"
-msgstr "Редактировать нижестоящий '%(controller_id)s'"
+msgstr "Редактировать устройство '%(controller_id)s'"
 
-#, fuzzy
 msgid ""
 "You can edit managed devices here. These managed devices are directly "
 "connected to this device."
 msgstr ""
-"Вы можете редактировать нижестоящие здесь. Нижестоящие напрямую связаны с"
-" этим устройством."
+"Вы можете редактировать управляемые устройства здесь. Они напрямую "
+"подключены к этому устройству."
 
 msgid "Custom Name"
 msgstr "Пользовательское имя"
@@ -118,37 +117,34 @@ msgstr "Пользовательское имя"
 msgid "Nicer name for your device '%(controller_id)s'."
 msgstr "Хорошее имя для вашего устройства '%(controller_id)s'."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Edit managed device '%(controller_id)s'"
-msgstr "Хорошее имя для вашего устройства '%(controller_id)s'."
+msgstr "Изменить управляемое устройство '%(controller_id)s'"
 
-#, fuzzy
 msgid ""
 "You can edit managed devices here. These devices are not not directly "
 "connected to this device but they are connected through another managed "
 "device."
 msgstr ""
-"Вы можете редактировать свое нижестоящих здесь. Нижестоящие нижестоящих -"
-" устройства, которые не связаны напрямую с этим устройством, но связаны с"
-" нижестоящим."
+"Вы можете редактировать управляемые устройства здесь. Они подключены не "
+"напрямую, а через другое управляемое устройство."
 
 #, python-format
 msgid "Nicer name for your device with serial '%(controller_id)s'."
 msgstr "Хорошее имя для вашего устройства с серийным номером '%(controller_id)s'."
 
 msgid "accepted"
-msgstr ""
+msgstr "принято"
 
 msgid "incomming"
-msgstr ""
+msgstr "входящий"
 
-#, fuzzy
 msgid "Netboot"
-msgstr "Перезагрузить"
+msgstr "Сетевая загрузка"
 
-#, fuzzy, python-format
+#, python-format
 msgid "Connection to '%(controller_id)s' was interrupted."
-msgstr "Нижестоящий '%(controller_id)s' был успешно обновлён."
+msgstr "Соединение с '%(controller_id)s' было прервано."
 
 msgid "Close"
 msgstr "Закрыть"
@@ -157,24 +153,22 @@ msgid "Apply"
 msgstr "Применить"
 
 msgid "Serial"
-msgstr ""
+msgstr "Серийный"
 
-#, fuzzy
 msgid "Paired"
-msgstr "истёк"
+msgstr "Соединенный"
 
-#, fuzzy
 msgid "Unpaired"
-msgstr "истёк"
+msgstr "Не соединенный"
 
 msgid "Revoke"
 msgstr "Отменить"
 
 msgid "Accept"
-msgstr ""
+msgstr "Принять"
 
 msgid "No suitable devices found."
-msgstr ""
+msgstr "Подходящих устройств не найдено."
 
 msgid "ID"
 msgstr "Идентификатор"
@@ -182,9 +176,8 @@ msgstr "Идентификатор"
 msgid "State"
 msgstr "Состояние"
 
-#, fuzzy
 msgid "Currently there are no managed devices."
-msgstr "В настоящее время нет нижестоящих."
+msgstr "В настоящее время нет управляемых устройств."
 
 msgid "Devices"
 msgstr "Устройства"
@@ -197,13 +190,14 @@ msgstr "В настоящее время нет нижестоящих."
 
 msgid "Manage devices which can be booted from this device through network."
 msgstr ""
+"Управляйте устройствами, которые могут быть загружены с этого устройства "
+"через сеть."
 
 msgid "Devices suitable for netboot"
-msgstr ""
+msgstr "Устройства, подходящие для сетевой загрузки"
 
-#, fuzzy
 msgid "Loading devices..."
-msgstr "Загрузка нижестоящих..."
+msgstr "Загрузка устройств..."
 
 #, python-format
 msgid ""
@@ -213,8 +207,12 @@ msgid ""
 "up</a> page.\n"
 "    "
 msgstr ""
+"\n"
+"    Обратите внимание, что если все идет хорошо, подключенные устройства "
+"должны <strong>в конечном итоге появиться</strong> на странице <a href=\""
+"%(setup_url)s\">Настройки</a>.\n"
+"    "
 
-#, fuzzy
 msgid ""
 "\n"
 "        On this tab you can set up other turris devices which can be "
@@ -225,28 +223,29 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        На этой вкладке можно настроить другие устройства Turris, "
-"которыми можно управлять с этого устройства. Вам нужно сгенерировать "
-"токен на удаленной вкладке на устройстве, которое надо контролировать. "
-"Затем вставьте токен здесь."
+"        На этой вкладке можно настроить другие устройства Turris, которыми "
+"можно управлять с этого устройства. Вам нужно сгенерировать токен на "
+"удаленной вкладке на устройстве, которое надо контролировать. Затем вставьте "
+"токен здесь.\n"
+"    "
 
-#, fuzzy
 msgid "Add device"
-msgstr "Устройство"
+msgstr "Добавить устройство"
 
 msgid "Upload token"
 msgstr "Загрузить токен"
 
-#, fuzzy
 msgid "Device list"
-msgstr "Устройства"
+msgstr "Список устройств"
 
-#, fuzzy
 msgid "Loading manged devices..."
-msgstr "Нижестоящие устройства"
+msgstr "Загрузка управляемых устройств..."
 
 msgid ""
 "\n"
 "        On this tab you can set up Wi-Fi of other devices controlled by "
 "this device."
 msgstr ""
+"\n"
+"        На этой вкладке вы можете настроить Wi-Fi других устройств, "
+"управляемых этим устройством."
