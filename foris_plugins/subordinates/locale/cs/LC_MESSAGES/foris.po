@@ -18,15 +18,16 @@ msgstr ""
 "Project-Id-Version: Foris 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 15:34+0200\n"
-"PO-Revision-Date: 2019-05-05 18:49+0000\n"
+"PO-Revision-Date: 2019-08-01 11:11+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/cs/>\n"
 "Language: cs\n"
-"Language-Team: Czech <https://hosted.weblate.org/projects/turris/foris-"
-"subordinates-plugin/cs/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
@@ -57,11 +58,11 @@ msgstr "Podřízené „%(controller_id)s“ bylo úspěšně smazáno."
 msgid "Failed to delete subordinate '%(controller_id)s'."
 msgstr "Nepodařilo se smazat podřízené „%(controller_id)s“."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subordinate '%(controller_id)s' was successfully enabled."
 msgstr "Podřízené „%(controller_id)s“ bylo úspěšně zapnuto."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subordinate '%(controller_id)s' was successfully disabled."
 msgstr "Podřízené „%(controller_id)s“ bylo úspěšně vypnuto."
 
@@ -73,7 +74,7 @@ msgstr "Nepodařilo se zapnout podřízené „%(controller_id)s“."
 msgid "Failed to disable subordinate '%(controller_id)s'."
 msgstr "Nepodařilo se vypnout podřízené „%(controller_id)s“."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Device '%(controller_id)s' was successfully updated."
 msgstr "Zařízení„%(controller_id)s“ bylo úspěšně aktualizováno."
 
@@ -81,7 +82,7 @@ msgstr "Zařízení„%(controller_id)s“ bylo úspěšně aktualizováno."
 msgid "Failed to update subordinate '%(controller_id)s'."
 msgstr "Nepodařilo se aktualizovat podřízené „%(controller_id)s“."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subsubordinate '%(controller_id)s' was successfully updated."
 msgstr "Podřízené „%(controller_id)s“ bylo úspěšně aktualizováno."
 
@@ -95,11 +96,9 @@ msgstr "Wi-Fi"
 msgid "Managed devices: Wi-Fi"
 msgstr "Spravovaná zařízení: Wi-Fi"
 
-#, fuzzy
 msgid "Wi-Fi settings were successfully updated."
 msgstr "Nastavení WiFi bylo úspěšně aktualizováno."
 
-#, fuzzy
 msgid "Failed to update Wi-Fi settings."
 msgstr "Nastavení WiFi se nepodařilo uplatnit."
 
@@ -172,7 +171,7 @@ msgid "Paired"
 msgstr "Spárováno"
 
 msgid "Paring"
-msgstr ""
+msgstr "Párování"
 
 msgid "Unpaired"
 msgstr "Spárování zrušeno"
@@ -229,7 +228,6 @@ msgstr ""
 "href=\"%(setup_url)s\">Nastavit</a>.\n"
 "    "
 
-#, fuzzy
 msgid ""
 "\n"
 "        On this tab, you can set up other Turris devices which can be "
@@ -240,8 +238,8 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        Na této kartě je možné nastavit ostatní Turris zařízení, které je"
-" možné\n"
+"        Na této kartě je možné nastavit ostatní Turris zařízení, které je "
+"možné\n"
 "        z tohoto. Na zařízení, které chcete ovládat je třeba na kartě "
 "vzdálené\n"
 "        vytvořit token. Ten pak vložte sem.\n"
@@ -256,11 +254,9 @@ msgstr "Nahrát token"
 msgid "Device list"
 msgstr "Seznam zařízení"
 
-#, fuzzy
 msgid "Loading managed devices..."
 msgstr "Načítání spravovaných zařízení…"
 
-#, fuzzy
 msgid ""
 "\n"
 "        On this tab, you can set up Wi-Fi of other devices controlled by "
@@ -269,4 +265,3 @@ msgstr ""
 "\n"
 "        Na této kartě je možné nastavit Wi-Fi ostatních zařízení, řízené "
 "tímto zařízením."
-
