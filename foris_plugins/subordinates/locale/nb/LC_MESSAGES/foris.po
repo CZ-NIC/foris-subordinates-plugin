@@ -5,19 +5,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  Foris\n"
+"Project-Id-Version: Foris\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 15:34+0200\n"
-"PO-Revision-Date: 2019-05-05 18:49+0000\n"
+"PO-Revision-Date: 2019-08-03 18:23+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
+"Language-Team: Norwegian Bokmål <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/nb_NO/>\n"
 "Language: nb\n"
-"Language-Team: Norwegian Bokmål "
-"<https://hosted.weblate.org/projects/turris/foris-subordinates-"
-"plugin/nb_NO/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
@@ -164,8 +164,9 @@ msgstr "Seriell"
 msgid "Paired"
 msgstr "Parret"
 
+#, fuzzy
 msgid "Paring"
-msgstr ""
+msgstr "Parring"
 
 #, fuzzy
 msgid "Unpaired"
@@ -262,4 +263,3 @@ msgstr ""
 "\n"
 "        På denne fanen kan du sette opp Wi-Fi på andre enheter som "
 "kontrolleres av denne enheten."
-

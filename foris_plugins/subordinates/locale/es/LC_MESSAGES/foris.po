@@ -1,58 +1,61 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) 2018 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the Foris package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2018.
+# Translations template for Foris Subordinates Plugin.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the Foris Subordinates
+# Plugin project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Foris\n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Foris Subordinates Plugin 0.4\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-25 15:34+0200\n"
-"PO-Revision-Date: 2019-11-23 18:04+0000\n"
-"Last-Translator: Mattias Münster <mattiasmun@gmail.com>\n"
-"Language-Team: Swedish <https://hosted.weblate.org/projects/turris/"
-"foris-subordinates-plugin/sv/>\n"
-"Language: sv\n"
+"PO-Revision-Date: 2019-10-29 04:53+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitojb@ubuntu.com>\n"
+"Language-Team: Spanish <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/es/>\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 3.10-dev\n"
+"X-Generator: Weblate 3.9.1\n"
 "Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
-msgstr ""
+msgstr "Configurar"
 
 msgid "Managed devices: Set up"
-msgstr ""
+msgstr "Dispositivos gestionados: configurar"
 
 #, python-format
 msgid ""
 "Token was successfully added and client '%(controller_id)s' should be "
 "visible in a moment."
 msgstr ""
+"Se ha añadido la ficha correctamente y el cliente «%(controller_id)s» "
+"debería ser visible en un instante."
 
 msgid "Failed to add token."
 msgstr ""
 
 msgid "Wrong HTTP method."
-msgstr "Fel HTTP-metod."
+msgstr "El método HTTP es incorrecto."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subordinate '%(controller_id)s' was successfully deleted."
-msgstr "Lösenordet har sparats."
+msgstr ""
 
 #, python-format
 msgid "Failed to delete subordinate '%(controller_id)s'."
 msgstr ""
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subordinate '%(controller_id)s' was successfully enabled."
-msgstr "Lösenordet har sparats."
+msgstr ""
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subordinate '%(controller_id)s' was successfully disabled."
-msgstr "Lösenordet har sparats."
+msgstr ""
 
 #, python-format
 msgid "Failed to enable subordinate '%(controller_id)s'."
@@ -62,31 +65,30 @@ msgstr ""
 msgid "Failed to disable subordinate '%(controller_id)s'."
 msgstr ""
 
-#, fuzzy, python-format
+#, python-format
 msgid "Device '%(controller_id)s' was successfully updated."
-msgstr "Inställningarna har sparats."
+msgstr ""
 
 #, python-format
 msgid "Failed to update subordinate '%(controller_id)s'."
 msgstr ""
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subsubordinate '%(controller_id)s' was successfully updated."
-msgstr "Inställningarna har sparats."
+msgstr ""
 
 #, python-format
 msgid "Failed to update subsubordinate '%(controller_id)s'."
 msgstr ""
 
 msgid "Wi-Fi"
-msgstr ""
+msgstr "Wifi"
 
 msgid "Managed devices: Wi-Fi"
 msgstr ""
 
-#, fuzzy
 msgid "Wi-Fi settings were successfully updated."
-msgstr "Inställningarna har sparats."
+msgstr ""
 
 msgid "Failed to update Wi-Fi settings."
 msgstr ""
@@ -94,9 +96,8 @@ msgstr ""
 msgid "Managed devices"
 msgstr ""
 
-#, fuzzy
 msgid "Token file"
-msgstr "Avsändarens namn"
+msgstr ""
 
 #, python-format
 msgid "Edit device '%(controller_id)s'"
@@ -107,9 +108,8 @@ msgid ""
 "connected to this device."
 msgstr ""
 
-#, fuzzy
 msgid "Custom Name"
-msgstr "Användarnamn"
+msgstr ""
 
 #, python-format
 msgid "Nicer name for your device '%(controller_id)s'."
@@ -138,9 +138,9 @@ msgstr ""
 msgid "Netboot"
 msgstr ""
 
-#, fuzzy, python-format
+#, python-format
 msgid "Connection to '%(controller_id)s' was interrupted."
-msgstr "Inställningarna har sparats."
+msgstr ""
 
 msgid "Close"
 msgstr ""
@@ -173,7 +173,7 @@ msgid "ID"
 msgstr ""
 
 msgid "State"
-msgstr "Tillstånd"
+msgstr "Estado"
 
 msgid "Currently there are no managed devices."
 msgstr ""
@@ -232,28 +232,3 @@ msgid ""
 "        On this tab, you can set up Wi-Fi of other devices controlled by "
 "this device."
 msgstr ""
-
-#~ msgid "Failed to update Wifi settings."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "        On this tab you can set"
-#~ " up other turris devices which can"
-#~ " be controlled\n"
-#~ "        by this device. You need "
-#~ "to generate token on the remote "
-#~ "tab on the device\n"
-#~ "        you wan't to control. And insert the token here.\n"
-#~ "    "
-#~ msgstr ""
-
-#~ msgid "Loading manged devices..."
-#~ msgstr ""
-
-#~ msgid ""
-#~ "\n"
-#~ "        On this tab you can set"
-#~ " up Wi-Fi of other devices "
-#~ "controlled by this device."
-#~ msgstr ""

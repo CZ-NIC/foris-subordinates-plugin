@@ -17,15 +17,16 @@ msgstr ""
 "Project-Id-Version: Foris 0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 15:34+0200\n"
-"PO-Revision-Date: 2019-05-05 18:49+0000\n"
-"Last-Translator: ssantos <ssantos@web.de>\n"
+"PO-Revision-Date: 2019-11-08 07:04+0000\n"
+"Last-Translator: nautilusx <mail.ka@mailbox.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://hosted.weblate.org/projects/turris/foris-"
-"subordinates-plugin/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.10-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
@@ -58,13 +59,14 @@ msgstr ""
 msgid "Failed to delete subordinate '%(controller_id)s'."
 msgstr "Untergeordnetes Gerät '%(controller_id)s' konnte nicht gelöscht werden."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subordinate '%(controller_id)s' was successfully enabled."
 msgstr "Untergeordnetes Geräte '%(controller_id)s' wurde erfolgreich aktiviert."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subordinate '%(controller_id)s' was successfully disabled."
-msgstr "Untergeordnetes Gerät '%(controller_id)s' wurde erfolgreich deaktiviert."
+msgstr ""
+"Untergeordnetes Gerät '%(controller_id)s' wurde erfolgreich deaktiviert."
 
 #, python-format
 msgid "Failed to enable subordinate '%(controller_id)s'."
@@ -76,9 +78,9 @@ msgstr ""
 "Der Fernzugriff für das untergeordnete Gerät '%(controller_id)s' konnte "
 "nicht deaktiviert werden."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Device '%(controller_id)s' was successfully updated."
-msgstr "Das Gerät '%(controller_id)s' wurde erfolgreich aktualisiert."
+msgstr "Gerät '%(controller_id)s' wurde erfolgreich aktualisiert."
 
 #, python-format
 msgid "Failed to update subordinate '%(controller_id)s'."
@@ -86,11 +88,10 @@ msgstr ""
 "Das untergeordnete Geräte '%(controller_id)s' konnte nicht aktualisiert "
 "werden."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subsubordinate '%(controller_id)s' was successfully updated."
 msgstr ""
-"Das untergeordnete Gerät '%(controller_id)s' wurde erfolgreich "
-"aktualisiert."
+"Untergeordnete Gerät '%(controller_id)s' wurde erfolgreich aktualisiert."
 
 #, python-format
 msgid "Failed to update subsubordinate '%(controller_id)s'."
@@ -104,13 +105,11 @@ msgstr "WLAN"
 msgid "Managed devices: Wi-Fi"
 msgstr "Verwaltete Geräte: WLAN"
 
-#, fuzzy
 msgid "Wi-Fi settings were successfully updated."
-msgstr "Die WLAN-Einstellungen wurden erfolgreich aktualisiert."
+msgstr "WLAN-Einstellungen wurden erfolgreich aktualisiert."
 
-#, fuzzy
 msgid "Failed to update Wi-Fi settings."
-msgstr "Die WLAN-Einstellungen konnten nicht aktualisiert werden."
+msgstr "WLAN-Einstellungen konnten nicht aktualisiert werden."
 
 msgid "Managed devices"
 msgstr "Verwaltete Geräte"
@@ -179,7 +178,7 @@ msgid "Paired"
 msgstr "Gepaart"
 
 msgid "Paring"
-msgstr ""
+msgstr "Verbinden"
 
 msgid "Unpaired"
 msgstr "Paarung getrennt"
@@ -236,7 +235,6 @@ msgstr ""
 "Seite erscheinen sollten.\n"
 "    "
 
-#, fuzzy
 msgid ""
 "\n"
 "        On this tab, you can set up other Turris devices which can be "
@@ -247,12 +245,11 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        Hier können Sie weitere Turris-Geräte einrichten, die durch "
-"dieses Gerät\n"
-"        gesteuert werden können. Sie müssen ein Token auf dem zu "
-"steuernden\n"
-"        Gerät generieren (unter Remote) und das Token dann hier einfügen."
-"\n"
+"        Auf dieser Registerkarte können Sie weitere Turris-Geräte "
+"einrichten, die durch dieses Gerät\n"
+"        gesteuert werden können. Sie müssen ein Token auf der Registerkarte "
+"Remote auf dem zu\n"
+"        steuernden Gerät generieren und den Token dann hier einfügen.\n"
 "    "
 
 msgid "Add device"
@@ -264,11 +261,9 @@ msgstr "Token hochladen"
 msgid "Device list"
 msgstr "Geräteliste"
 
-#, fuzzy
 msgid "Loading managed devices..."
-msgstr "Laden von verwalteten Geräten....."
+msgstr "Laden von verwalteten Geräten..."
 
-#, fuzzy
 msgid ""
 "\n"
 "        On this tab, you can set up Wi-Fi of other devices controlled by "
@@ -277,4 +272,3 @@ msgstr ""
 "\n"
 "        Auf dieser Registerkarte können Sie das WLAN anderer Geräte "
 "einrichten, die von diesem Gerät gesteuert werden."
-

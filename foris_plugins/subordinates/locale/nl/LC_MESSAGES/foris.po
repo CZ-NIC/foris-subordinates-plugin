@@ -5,18 +5,19 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  Foris\n"
+"Project-Id-Version: Foris\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 15:34+0200\n"
-"PO-Revision-Date: 2018-10-21 11:28+0000\n"
+"PO-Revision-Date: 2019-08-01 11:11+0000\n"
 "Last-Translator: powerburner-nl <peter.mulder.1981@gmail.com>\n"
+"Language-Team: Dutch <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/nl/>\n"
 "Language: nl\n"
-"Language-Team: Dutch "
-"<https://hosted.weblate.org/projects/turris/foris/nl/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
@@ -35,7 +36,7 @@ msgid "Failed to add token."
 msgstr ""
 
 msgid "Wrong HTTP method."
-msgstr "Ongeldige HTTP-methode."
+msgstr "Verkeerde HTTP-methode."
 
 #, fuzzy, python-format
 msgid "Subordinate '%(controller_id)s' was successfully deleted."
@@ -161,7 +162,7 @@ msgid "Unpaired"
 msgstr ""
 
 msgid "Revoke"
-msgstr ""
+msgstr "Intrekken"
 
 msgid "Accept"
 msgstr ""
@@ -262,4 +263,3 @@ msgstr ""
 #~ " up Wi-Fi of other devices "
 #~ "controlled by this device."
 #~ msgstr ""
-

@@ -5,19 +5,20 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version:  Foris\n"
+"Project-Id-Version: Foris\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-07-25 15:34+0200\n"
-"PO-Revision-Date: 2019-05-02 14:49+0000\n"
+"PO-Revision-Date: 2019-08-01 11:11+0000\n"
 "Last-Translator: Алексей Леньшин <alenshin@gmail.com>\n"
+"Language-Team: Russian <https://hosted.weblate.org/projects/turris/"
+"foris-subordinates-plugin/ru/>\n"
 "Language: ru\n"
-"Language-Team: Russian <https://hosted.weblate.org/projects/turris/foris-"
-"subordinates-plugin/ru/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.8-dev\n"
 "Generated-By: Babel 2.7.0\n"
 
 msgid "Set up"
@@ -42,39 +43,39 @@ msgstr "Неверный метод HTTP."
 
 #, python-format
 msgid "Subordinate '%(controller_id)s' was successfully deleted."
-msgstr "Нижестоящий '%(controller_id)s' был успешно удален."
+msgstr "Подчиненный '%(controller_id)s' был успешно удален."
 
 #, python-format
 msgid "Failed to delete subordinate '%(controller_id)s'."
-msgstr "Не удалось удалить нижестоящий '%(controller_id)s'."
+msgstr "Не удалось удалить подчиненный '%(controller_id)s'."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subordinate '%(controller_id)s' was successfully enabled."
-msgstr "Нижестоящий '%(controller_id)s' успешно включен."
+msgstr "Подчиненный '%(controller_id)s' успешно включен."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subordinate '%(controller_id)s' was successfully disabled."
-msgstr "Нижестоящий '%(controller_id)s' успешно отключен."
+msgstr "Подчиненный '%(controller_id)s' успешно отключен."
 
 #, python-format
 msgid "Failed to enable subordinate '%(controller_id)s'."
-msgstr "Не удалось включить нижестоящий '%(controller_id)s'."
+msgstr "Не удалось включить подчиненный '%(controller_id)s'."
 
 #, python-format
 msgid "Failed to disable subordinate '%(controller_id)s'."
-msgstr "Не удалось отключить нижестоящий '%(controller_id)s'."
+msgstr "Не удалось отключить подчиненный '%(controller_id)s'."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Device '%(controller_id)s' was successfully updated."
 msgstr "Устройство '%(controller_id)s' было успешно обновлёно."
 
 #, python-format
 msgid "Failed to update subordinate '%(controller_id)s'."
-msgstr "Не удалось обновить нижестоящий '%(controller_id)s'."
+msgstr "Не удалось обновить подчиненный '%(controller_id)s'."
 
-#, fuzzy, python-format
+#, python-format
 msgid "Subsubordinate '%(controller_id)s' was successfully updated."
-msgstr "Нижестоящий нижестоящего '%(controller_id)s' был успешно обновлён."
+msgstr "Подчиненный нижестоящего '%(controller_id)s' был успешно обновлён."
 
 #, python-format
 msgid "Failed to update subsubordinate '%(controller_id)s'."
@@ -86,11 +87,9 @@ msgstr "Wi-Fi"
 msgid "Managed devices: Wi-Fi"
 msgstr "Управляемые устройства: Wi-Fi"
 
-#, fuzzy
 msgid "Wi-Fi settings were successfully updated."
 msgstr "Настройки WiFi были успешно обновлены."
 
-#, fuzzy
 msgid "Failed to update Wi-Fi settings."
 msgstr "Не удалось обновить настройки WiFi."
 
@@ -160,7 +159,7 @@ msgid "Paired"
 msgstr "Соединенный"
 
 msgid "Paring"
-msgstr ""
+msgstr "Cокращение"
 
 msgid "Unpaired"
 msgstr "Не соединенный"
@@ -217,7 +216,6 @@ msgstr ""
 "href=\"%(setup_url)s\">Настройки</a>.\n"
 "    "
 
-#, fuzzy
 msgid ""
 "\n"
 "        On this tab, you can set up other Turris devices which can be "
@@ -228,10 +226,10 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"        На этой вкладке можно настроить другие устройства Turris, "
-"которыми можно управлять с этого устройства. Вам нужно сгенерировать "
-"токен на удаленной вкладке на устройстве, которое надо контролировать. "
-"Затем вставьте токен здесь.\n"
+"        На этой вкладке можно настроить другие устройства Turris, которыми "
+"можно управлять с этого устройства. Вам нужно сгенерировать токен на вкладке "
+"дистанционный на устройстве, которое надо контролировать. Затем скопируйте "
+"токен сюда.\n"
 "    "
 
 msgid "Add device"
@@ -243,11 +241,9 @@ msgstr "Загрузить токен"
 msgid "Device list"
 msgstr "Список устройств"
 
-#, fuzzy
 msgid "Loading managed devices..."
 msgstr "Загрузка управляемых устройств..."
 
-#, fuzzy
 msgid ""
 "\n"
 "        On this tab, you can set up Wi-Fi of other devices controlled by "
@@ -256,4 +252,3 @@ msgstr ""
 "\n"
 "        На этой вкладке вы можете настроить Wi-Fi других устройств, "
 "управляемых этим устройством."
-
