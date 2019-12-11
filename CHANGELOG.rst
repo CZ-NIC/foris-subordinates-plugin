@@ -1,3 +1,10 @@
+0.5 (2019-12-11)
+----------------
+
+* text fixes
+* translations updated
+* limit custom name length
+
 0.4 (2019-07-10)
 ----------------
 
