@@ -100,6 +100,7 @@ class SubordinatesEditForm(fapi.ForisAjaxForm):
             Textbox,
             name="custom_name",
             label=_("Custom Name"),
+            validators=[validators.LenRange(0, 30)],
             hint=_("Nicer name for your device '%(controller_id)s'.")
             % dict(controller_id=data["controller_id"]),
         )
@@ -165,6 +166,7 @@ class SubsubordinatesEditForm(fapi.ForisAjaxForm):
             Textbox,
             name="custom_name",
             label=_("Custom Name"),
+            validators=[validators.LenRange(0, 30)],
             hint=_("Nicer name for your device with serial '%(controller_id)s'.")
             % dict(controller_id=self.subsubordinate_controller_id),
         )
