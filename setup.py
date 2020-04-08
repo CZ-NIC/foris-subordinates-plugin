@@ -21,10 +21,10 @@ class BuildCmd(build_py):
 
 setup(
     name="Foris Subordinates Plugin",
-    version="0.5",
+    version="0.6",
     description="Subordinates plugin for foris web interface",
     author="CZ.NIC, z. s. p. o.",
-    author_email="stepan.henek@nic.cz",
+    author_email="packaging@turris.cz",
     url="https://gitlab.labs.nic.cz/turris/foris/foris-subordinates-plugin/",
     license="GPL-3.0",
     install_requires=["foris", "jinja2"],

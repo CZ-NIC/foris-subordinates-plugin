@@ -1,3 +1,8 @@
+0.6 (2020-04-08)
+----------------
+
+*  Fix document.activeElement behavior on Safari and Firefox (MacOS)
+
 0.5 (2019-12-11)
 ----------------
 
