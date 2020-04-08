@@ -223,6 +223,14 @@
             Foris.loadSubordinatesList();
             Foris.afterAjaxUpdateFunctions.push(Foris.suboridnatesOverrideEditClose);
             Foris.afterAjaxUpdateFunctions.push(Foris.overrideSubordinatesEditButton);
+            
+            // Workaround to get document.activeElement worked similar on Safari and Firefox on MacOS
+            // https://zellwk.com/blog/inconsistent-button-behavior/
+            document.addEventListener('click', function (event) {
+                if (event.target.matches('button')) {
+                    event.target.focus()
+                }
+            })
         });
     </script>
     <style>

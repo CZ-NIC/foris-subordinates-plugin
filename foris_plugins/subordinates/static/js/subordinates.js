@@ -1,4 +1,4 @@
-// TODO separete reasonable part for dynamic js
+// TODO separate reasonable part for dynamic js
 
 Foris.initNetbootRecordsForms = () => {
     $(".record-form").submit((e) => {
@@ -39,7 +39,7 @@ Foris.initNetbootRecordsForms = () => {
                 break;
         }
     });
-}
+};
 
 Foris.addWsHanlder("netboot", (msg) => {
     switch(msg.action) {
@@ -54,4 +54,12 @@ Foris.addWsHanlder("netboot", (msg) => {
 $(document).ready(function() {
     Foris.initNetbootRecordsForms();
     Foris.loadNetbootList();
+
+    // Workaround to get document.activeElement worked similar on Safari and Firefox on MacOS
+    // https://zellwk.com/blog/inconsistent-button-behavior/
+    document.addEventListener('click', function (event) {
+        if (event.target.matches('button')) {
+            event.target.focus()
+        }
+    })
 });
